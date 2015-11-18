@@ -1,4 +1,5 @@
 /vendor
+!resources/views/vendor
 /node_modules
 Homestead.yaml
 Homestead.json
