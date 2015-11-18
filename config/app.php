@@ -9,7 +9,7 @@ return [
 	|
 	| The application name for use within the UI of the application
 	*/
-	'name' => 'Application',
+	'name' => '合伙人+',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -48,7 +48,7 @@ return [
 	|
 	*/
 
-	'timezone' => 'UTC',
+	'timezone' => 'Asia/Shanghai',
 
 	/*
 	|--------------------------------------------------------------------------
