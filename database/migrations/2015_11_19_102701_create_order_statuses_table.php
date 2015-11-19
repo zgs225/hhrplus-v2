@@ -22,7 +22,7 @@ class CreateOrderStatusesTable extends Migration
              * 2 - 已服务
              * 3 - 已取消
              */
-            $table->integer('status_code', 2);
+            $table->smallInteger('status_code');
             $table->string('status', 45);
             $table->string('description')->nullable();
             $table->boolean('is_current');
