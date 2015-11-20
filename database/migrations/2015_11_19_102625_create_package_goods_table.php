@@ -15,7 +15,6 @@ class CreatePackageGoodsTable extends Migration
         Schema::create('package_goods', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
-            $table->decimal('price', 10, 2);
             /**
              * 打包品状态
              * 0 - 下架

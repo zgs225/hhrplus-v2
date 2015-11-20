@@ -1,0 +1,106 @@
+<?php
+
+use Carbon\Carbon;
+use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
+
+class ProductTableSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        $table = 'products';
+
+        if(env('DB_DRIVER') == 'mysql')
+            DB::statement('SET FOREIGN_KEY_CHECKS=0;');
+
+        if(env('DB_DRIVER') == 'mysql')
+            DB::table($table)->truncate();
+        elseif(env('DB_DRIVER') == 'sqlite')
+            DB::statement("DELETE FROM ".$table);
+        else //For PostgreSQL or anything else
+            DB::statement("TRUNCATE TABLE ".$table." CASCADE");
+
+        $products = array(
+            array(
+                'product_no' => 'A01',
+                'name' => '约技术聊',
+                'list_price' => 159,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ),
+            array(
+                'product_no' => 'A02',
+                'name' => '约专家技术聊',
+                'list_price' => 259,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ),
+            array(
+                'product_no' => 'A03',
+                'name' => '约导师聊',
+                'list_price' => 2016,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ),
+            array(
+                'product_no' => 'B01',
+                'name' => '需求文档',
+                'list_price' => 1980,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ),
+            array(
+                'product_no' => 'B02',
+                'name' => '产品原型',
+                'list_price' => 2980,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ),
+            array(
+                'product_no' => 'B03',
+                'name' => 'DEMO开发',
+                'list_price' => 8980,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ),
+            array(
+                'product_no' => 'B04',
+                'name' => '单项技术问题',
+                'list_price' => 500,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ),
+            array(
+                'product_no' => 'C01',
+                'name' => 'APP开发',
+                'list_price' => 59800,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ),
+            array(
+                'product_no' => 'C02',
+                'name' => '网站开发',
+                'list_price' => 29800,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            ),
+            array(
+                'product_no' => 'C03',
+                'name' => '微信开发',
+                'list_price' => 19800,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now()
+            )
+        );
+
+        DB::table($table)->insert($products);
+
+        if(env('DB_DRIVER') == 'mysql')
+            DB::statement('SET FOREIGN_KEY_CHECKS=1;');
+    }
+}

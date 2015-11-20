@@ -16,6 +16,7 @@ class CreateGoodItemsTable extends Migration
             $table->increments('id');
             $table->unsignedInteger('package_good_id');
             $table->unsignedInteger('sku_id');
+            $table->decimal('price', 10, 2);
             $table->integer('quantity');
             $table->softDeletes();
             $table->timestamps();
