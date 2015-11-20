@@ -54,7 +54,7 @@ class OrderController extends Controller
         return redirect()->action('PaymentController@gateway', [
             'gateway'      => 'alipay',
             'out_trade_no' => $order->order_no,
-            'subject'      => '支付来自合伙人+的订单',
+            'subject'      => '支付来自合伙人+的' . $order->orderItems()->lists('product_name')->implode(', ') .'订单',
             'total_fee'    => $order->actual_amount
         ]);
     }
