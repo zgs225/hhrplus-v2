@@ -19,11 +19,11 @@ return [
 		'alipay' => [
             'driver' => 'Alipay_Express',
             'options' => [
-                'partner'     => '2088801188200796',
-                'key'         => 'fbxziz2h95h4jx7xzg04ora8j2beeg8u',
-                'sellerEmail' => '68855871@qq.com ',
-                'notifyUrl'   => 'http://www.hhrplus.com/payment/notify',
-                'returnUrl'   => 'http://localhost:8000/payment/return'
+                'partner'     => env('ALIPAY_PARTNER_ID'),
+                'key'         => env('ALIPAY_KEY'),
+                'sellerEmail' => env('ALIPAY_SELLER_EMAIL'),
+                'notifyUrl'   => env('ALIPAY_NOTIFY_URL'),
+                'returnUrl'   => env('ALIPAY_RETURN_URL')
             ]
         ]
 	]
