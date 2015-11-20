@@ -167,7 +167,7 @@ return [
 		'Laracasts\Utilities\JavaScript\JavaScriptServiceProvider',
 		'Laravel\Socialite\SocialiteServiceProvider',
 		'Potsky\LaravelLocalizationHelpers\LaravelLocalizationHelpersServiceProviderLaravel5',
-    'Ignited\LaravelOmnipay\LaravelOmnipayServiceProvider',
+    	'Ignited\LaravelOmnipay\LaravelOmnipayServiceProvider',
 	],
 
 	/*
@@ -222,6 +222,6 @@ return [
 		'Gravatar'  => 'Creativeorange\Gravatar\Facades\Gravatar',
 		'HTML'		=> 'Collective\Html\HtmlFacade',
 		'Socialize' => 'Laravel\Socialite\Facades\Socialite',
-    'Omnipay' => 'Ignited\LaravelOmnipay\Facades\OmnipayFacade',
+    	'Omnipay'   => 'Ignited\LaravelOmnipay\Facades\OmnipayFacade',
 	],
 ];

@@ -18,9 +18,9 @@ class CreateOrdersTable extends Migration
             $table->string('order_no', 45);
             $table->timestamp('paid_at');
             $table->string('buyer_name');
+            $table->string('buyer_telephone', 45);
+            $table->string('buyer_email');
             $table->string('buyer_ip', 45);
-            $table->string('telephone', 45);
-            $table->string('email');
             $table->decimal('total_amount', 10, 2);
             $table->decimal('actual_amount', 10, 2);
             $table->decimal('discount_amount', 10, 2);
@@ -28,6 +28,7 @@ class CreateOrdersTable extends Migration
             $table->timestamps();
 
             $table->index('user_id');
+            $table->unique('order_no');
         });
     }
 

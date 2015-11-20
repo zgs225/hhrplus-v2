@@ -16,4 +16,9 @@ class Order extends Model
     protected $dates = ['deleted_at', 'paid_at'];
 
     protected $guarded = ['id'];
+
+    protected $fillable = [
+        'user_id', 'order_no', 'buyer_name',
+        'buyer_ip', 'buyer_email', 'buyer_telephone', 'paid_at'
+    ];
 }

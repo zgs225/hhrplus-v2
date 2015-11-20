@@ -1,6 +1,6 @@
 <?php
 
-namespace app\Models\Relations;
+namespace App\Models\Relations;
 
 trait BelongsToOrderTrait
 {

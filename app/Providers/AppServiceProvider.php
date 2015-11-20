@@ -37,6 +37,8 @@ class AppServiceProvider extends ServiceProvider {
         if ($this->app->environment() == 'local') {
             $this->app->register(\Laracasts\Generators\GeneratorsServiceProvider::class);
         }
+
+        $this->registerBinds();
     }
 
     protected function registerCascadesDeletesEvents() {
@@ -86,5 +88,12 @@ class AppServiceProvider extends ServiceProvider {
         User::restored(function ($user) {
             $user->orders()->withTrashed()->restore();
         });
+    }
+
+    protected function registerBinds() {
+        $this->app->bind(
+            \App\Repositories\Frontend\Commerce\OrderContract::class,
+            \App\Repositories\Frontend\Commerce\EloquentOrderRepository::class
+        );
     }
 }

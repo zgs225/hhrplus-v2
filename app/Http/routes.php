@@ -6,6 +6,11 @@
 require(__DIR__ . "/Routes/Global/Lang.php");
 
 /**
+ * 支付相关
+ */
+require(__DIR__ . "/Routes/Global/Payment.php");
+
+/**
  * Frontend Routes
  * Namespaces indicate folder structure
  */

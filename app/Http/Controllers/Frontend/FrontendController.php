@@ -1,5 +1,6 @@
 <?php namespace App\Http\Controllers\Frontend;
 
+use App\Models\PackageGood;
 use App\Http\Controllers\Controller;
 
 /**
@@ -13,11 +14,8 @@ class FrontendController extends Controller {
 	 */
 	public function index()
 	{
-		javascript()->put([
-			'test' => 'it works!'
-		]);
-
-		return view('frontend.index');
+        $packageGoods = PackageGood::all();
+		return view('frontend.index', compact('packageGoods'));
 	}
 
 	/**
