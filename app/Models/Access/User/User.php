@@ -10,6 +10,8 @@ use App\Models\Access\User\Traits\Relationship\UserRelationship;
 use Illuminate\Contracts\Auth\Authenticatable as AuthenticatableContract;
 use Illuminate\Contracts\Auth\CanResetPassword as CanResetPasswordContract;
 
+use App\Models\Relations\HasManyOrdersTrait;
+
 /**
  * Class User
  * @package App\Models\Access\User
@@ -21,7 +23,8 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
 		SoftDeletes,
 		UserAccess,
 		UserRelationship,
-		UserAttribute;
+		UserAttribute,
+        HasManyOrdersTrait;
 
 	/**
 	 * The database table used by the model.
