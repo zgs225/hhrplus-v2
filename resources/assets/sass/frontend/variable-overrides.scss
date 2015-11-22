@@ -1,2 +1,19 @@
 $fa-font-path: "../fonts/font-awesome";
 $font-family-sans-serif:  Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
+
+$brand-primary: #1685d0;
+
+// Basic of a navbar
+$navbar-height: 70px;
+$navbar-margin-bottom: -1px;
+$navbar-border-radius: 0;
+$navbar-default-bg: #1685d0;
+$navbar-default-color: #ffffff;
+$navbar-default-border: #1685d0;
+$navbar-default-link-color: #ffffff;
+$navbar-default-link-hover-color:          #333;
+$navbar-default-link-hover-bg:             #fff;
+$navbar-default-link-active-color:         #fff;
+$navbar-default-link-active-bg:            transparent;
+$navbar-default-link-disabled-color:       #ccc;
+$navbar-default-link-disabled-bg:          transparent;

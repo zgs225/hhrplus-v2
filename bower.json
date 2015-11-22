@@ -1,0 +1,6 @@
+{
+  "name": "合伙人+官网",
+  "dependencies": {
+    "slick-carousel": "~1.5.8"
+  }
+}

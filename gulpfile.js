@@ -11,11 +11,12 @@ elixir(function(mix) {
                 'frontend/main.scss'
             ], 'resources/assets/css/frontend/main.css')
         .styles([  // Combine pre-processed CSS files
-                'frontend/main.css'
+                'frontend/main.css',
             ], 'public/css/frontend.css')
         .scripts([ // Combine front-end scripts
+                '../../../vendor/bower_components/slick-carousel/slick/slick.min.js',
                 'plugins.js',
-                'frontend/main.js'
+                'frontend/main.js',
             ], 'public/js/frontend.js')
 
         .sass([ // Process back-end stylesheets

@@ -23,5 +23,8 @@ return [
     'macros' => '宏',
     'register' => '注册',
     'button' => '按钮',
+    'services' => '产品中心',
+    'about' => '关于我们',
+    'clients' => '客户案例',
 
 ];
