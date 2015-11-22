@@ -15,6 +15,7 @@ elixir(function(mix) {
             ], 'public/css/frontend.css')
         .scripts([ // Combine front-end scripts
                 '../../../vendor/bower_components/slick-carousel/slick/slick.min.js',
+                '../../../vendor/bower_components/jqBootstrapValidation/dist/jqBootstrapValidation-1.3.7.min.js',
                 'plugins.js',
                 'frontend/main.js',
             ], 'public/js/frontend.js')

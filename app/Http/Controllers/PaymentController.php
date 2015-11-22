@@ -5,10 +5,21 @@ namespace App\Http\Controllers;
 use Omnipay;
 use Illuminate\Http\Request;
 
+use App\Models\Order;
 use App\Http\Requests;
+use App\Repositories\Frontend\Commerce\OrderContract;
 
 class PaymentController extends Controller
 {
+    /*
+     * @var OrderContract
+     */
+    protected $orders;
+
+    public function __construct(OrderContract $orders) {
+        $this->orders = $orders;
+    }
+
     public function gateway(Request $request)
     {
         $options = $request->except('gateway');
@@ -26,6 +37,8 @@ class PaymentController extends Controller
 
         if ($response->isSuccessful() && $response->isTradeStatusOk()) {
             $order_no = $request->get('out_trade_no');
+            $order = Order::where('order_no', $order_no)->firstOrFail();
+            $this->orders->paymentSuccess($order);
 
             return redirect()->route('order.payment.success', compact('order_no'));
         } else {

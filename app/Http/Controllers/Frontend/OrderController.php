@@ -106,8 +106,7 @@ class OrderController extends Controller
 
     public function payment_success($order_no)
     {
-        $order = Order::where('order_no', $order_no)->firstOrFail();
-        $this->orders->paymentSuccess($order);
+        $order = Order::with('orderItems', 'orderStatuses')->where('order_no', $order_no)->firstOrFail();
 
         return view('frontend.orders.payment_success', compact('order'))->with('status', '支付成功');
     }

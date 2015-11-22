@@ -12,7 +12,7 @@
         }
 
         html {
-            color: #888;
+            color: #333;
             display: table;
             font-family: sans-serif;
             height: 100%;
@@ -24,12 +24,14 @@
             display: table-cell;
             vertical-align: middle;
             margin: 2em auto;
+            background-color: #d2d6de;
         }
 
         h1 {
             color: #555;
             font-size: 2em;
             font-weight: 400;
+            margin-bottom: 15px;
         }
 
         p {

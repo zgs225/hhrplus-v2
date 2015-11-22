@@ -14,6 +14,11 @@
   border: none;
 }
 
+.btn-flat {
+  border-radius: 0;
+  box-shadow: none;
+}
+
 .hhrplus-slides {
   margin-bottom: 0;
 }
@@ -222,5 +227,27 @@ footer.copyright {
 
   .cp, .icp {
     margin-top: 11px;
+  }
+}
+
+.hhrplus-order-info {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 30px;
+
+  li {
+    background-color: #fff;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    font-size: 16px;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    span {
+      display: inline-block;
+      float: right;
+    }
   }
 }

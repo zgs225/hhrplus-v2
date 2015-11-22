@@ -7969,6 +7969,10 @@ button.close {
 .navbar {
   border: none; }
 
+.btn-flat {
+  border-radius: 0;
+  box-shadow: none; }
+
 .hhrplus-slides {
   margin-bottom: 0; }
 
@@ -8110,6 +8114,21 @@ footer.copyright {
     color: #fff; }
   footer.copyright .cp, footer.copyright .icp {
     margin-top: 11px; }
+
+.hhrplus-order-info {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 30px; }
+  .hhrplus-order-info li {
+    background-color: #fff;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    font-size: 16px; }
+    .hhrplus-order-info li:last-child {
+      border-bottom: none; }
+    .hhrplus-order-info li span {
+      display: inline-block;
+      float: right; }
 
 /*# sourceMappingURL=main.css.map */
 

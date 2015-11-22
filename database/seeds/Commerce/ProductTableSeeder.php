@@ -35,28 +35,21 @@ class ProductTableSeeder extends Seeder
             ),
             array(
                 'product_no' => 'A02',
-                'name' => '约专家技术聊',
-                'list_price' => 259,
-                'created_at' => Carbon::now(),
-                'updated_at' => Carbon::now()
-            ),
-            array(
-                'product_no' => 'A03',
                 'name' => '约导师聊',
-                'list_price' => 2016,
+                'list_price' => 2000,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ),
             array(
                 'product_no' => 'B01',
-                'name' => '需求文档',
+                'name' => '需求文档会议',
                 'list_price' => 1980,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ),
             array(
                 'product_no' => 'B02',
-                'name' => '产品原型',
+                'name' => '产品原型设计',
                 'list_price' => 2980,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
@@ -64,7 +57,7 @@ class ProductTableSeeder extends Seeder
             array(
                 'product_no' => 'B03',
                 'name' => 'DEMO开发',
-                'list_price' => 8980,
+                'list_price' => 4980,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ),
@@ -78,21 +71,21 @@ class ProductTableSeeder extends Seeder
             array(
                 'product_no' => 'C01',
                 'name' => 'APP开发',
-                'list_price' => 59800,
+                'list_price' => 69800,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ),
             array(
                 'product_no' => 'C02',
                 'name' => '网站开发',
-                'list_price' => 29800,
+                'list_price' => 59800,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ),
             array(
                 'product_no' => 'C03',
                 'name' => '微信开发',
-                'list_price' => 19800,
+                'list_price' => 49800,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             )

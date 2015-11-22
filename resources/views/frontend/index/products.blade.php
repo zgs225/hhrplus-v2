@@ -35,8 +35,8 @@
                 资深技术团队，项目经验丰富
               </li>
             </ul>
-            <a href="/services/1">
-            查看详情
+            <a data-toggle="modal" data-target="#product-modal-1" href="#">
+            立即购买
             </a>
           </div>
         </div>
@@ -69,8 +69,8 @@
                 更多
               </li>
             </ul>
-            <a href="/services/4">
-            查看详情
+            <a data-toggle="modal" data-target="#product-modal-3" href="#">
+            立即购买
             </a>
           </div>
         </div>
@@ -103,8 +103,8 @@
                 更多
               </li>
             </ul>
-            <a href="/services/8">
-            查看详情
+            <a data-toggle="modal" data-target="#product-modal-7" href="#">
+            立即购买
             </a>
           </div>
         </div>
@@ -112,3 +112,5 @@
     </div>
   </div>
 </div>
+
+@include ('frontend/includes/product_demos')

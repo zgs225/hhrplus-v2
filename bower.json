@@ -1,6 +1,7 @@
 {
   "name": "合伙人+官网",
   "dependencies": {
-    "slick-carousel": "~1.5.8"
+    "slick-carousel": "~1.5.8",
+    "jqBootstrapValidation": "~1.3.7"
   }
 }

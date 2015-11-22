@@ -33,7 +33,7 @@ return [
     'if_confirmed_is_off' => '(If confirmed is off)',
     'js_injected_from_controller' => 'Javascript Injected from a Controller',
     'member_since' => '加入于',
-    'page_not_found' => '未找到这个页面',
+    'page_not_found' => '该功能即将开放',
     'password_successfully_changed' => '密码修改成功.',
     'profile_successfully_updated' => '资料更新成功.',
     'save_button' => '保存',
@@ -43,7 +43,7 @@ return [
         'notifications' => '查看所有通知',
         'tasks' => '查看所有任务',
     ],
-    'sorry_page_you_were_trying' => '对不起, 您所查看的页面并不存在.',
+    'sorry_page_you_were_trying' => '敬请期待……',
     'test' => '测试',
     'using_access_helper' => [
         'array_permissions' => 'Using Access Helper with Array of Permission Names or ID\'s where the user does have to possess all.',
