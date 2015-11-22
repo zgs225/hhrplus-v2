@@ -1,5 +1,9 @@
 @extends('frontend.layouts.master')
 
+@section ('title')
+合伙人+，满足互联网初创项目从0到0.1的技术需求
+@stop
+
 @section('content')
   <div class="row">
     @include ('frontend.index.slides')
