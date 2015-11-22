@@ -1,5 +1,9 @@
 @extends('frontend.layouts.master')
 
+@section ('title')
+订单支付成功
+@stop
+
 @section ('content')
 <div class="row">
   <div class="hhrplus-block bg-gray clearfix">
