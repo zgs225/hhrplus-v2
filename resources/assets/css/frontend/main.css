@@ -3940,7 +3940,7 @@ tbody.collapse.in {
   .navbar-default .navbar-toggle {
     border-color: #fff; }
     .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-      background-color: #fff; }
+      background-color: transparent; }
     .navbar-default .navbar-toggle .icon-bar {
       background-color: #fff; }
   .navbar-default .navbar-collapse,
