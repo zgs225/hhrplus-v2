@@ -116,7 +116,10 @@
         </div>
       </div>
       <div class="col-md-4 col-sm-8 col-xs-12">
-        <div class="icp text-center">
+        <div class="icp text-center hidden-xs">
+          京ICP备14056723号-4
+        </div>
+        <div class="icp show-xs">
           京ICP备14056723号-4
         </div>
       </div>

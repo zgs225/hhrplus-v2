@@ -6,7 +6,7 @@
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4 class="modal-title" id="product-label-{{ $packageGood->id }}">购买{{ $packageGood->name }}</h4>
       </div>
-      {!! Form::open(['url' => route('orders.store'), 'method' => 'POST']) !!}
+      {!! Form::open(['url' => route('orders.store'), 'method' => 'POST', 'novalidate' => true]) !!}
       <div class="modal-body">
         {!! Form::hidden('package_good_id', $packageGood->id) !!}
         <div class="form-group control-group">
