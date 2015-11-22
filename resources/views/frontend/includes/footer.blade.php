@@ -119,7 +119,7 @@
         <div class="icp text-center hidden-xs">
           京ICP备14056723号-4
         </div>
-        <div class="icp show-xs">
+        <div class="icp visible-xs">
           京ICP备14056723号-4
         </div>
       </div>
