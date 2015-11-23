@@ -102,7 +102,7 @@
       </div>
       <div class="col-md-2 col-sm-8 col-xs-12">
         <h3>我们的微信</h3>
-        <img class="img-responsive" src="/build/images/qrcode.png" alt="合伙人+微信公众号">
+        <img class="img-responsive" src="/build/images/qrcode.jpg" alt="合伙人+微信公众号">
       </div>
     </div>
   </div>
