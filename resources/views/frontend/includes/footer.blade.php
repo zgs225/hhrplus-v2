@@ -96,7 +96,7 @@
           </li>
           <li>
             <i class="fa fa-angle-right fa-fw"></i>
-            平台开发
+            微信开发
           </li>
         </ul>
       </div>
