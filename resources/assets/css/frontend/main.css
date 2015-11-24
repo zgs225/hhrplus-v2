@@ -2306,7 +2306,7 @@ output {
   background-color: #fff;
   background-image: none;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 0;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s; }
   .form-control:focus {
@@ -2473,7 +2473,7 @@ fieldset[disabled]
   padding: 5px 10px;
   font-size: 12px;
   line-height: 1.5;
-  border-radius: 3px; }
+  border-radius: 0; }
 
 select.input-sm, .input-group-sm > select.form-control,
 .input-group-sm > select.input-group-addon,
@@ -2495,7 +2495,7 @@ select[multiple].input-sm,
   padding: 5px 10px;
   font-size: 12px;
   line-height: 1.5;
-  border-radius: 3px; }
+  border-radius: 0; }
 
 .form-group-sm select.form-control {
   height: 30px;
@@ -2519,7 +2519,7 @@ select[multiple].input-sm,
   padding: 10px 16px;
   font-size: 18px;
   line-height: 1.3333333;
-  border-radius: 6px; }
+  border-radius: 0; }
 
 select.input-lg, .input-group-lg > select.form-control,
 .input-group-lg > select.input-group-addon,
@@ -2541,7 +2541,7 @@ select[multiple].input-lg,
   padding: 10px 16px;
   font-size: 18px;
   line-height: 1.3333333;
-  border-radius: 6px; }
+  border-radius: 0; }
 
 .form-group-lg select.form-control {
   height: 46px;
@@ -8132,5 +8132,35 @@ footer.copyright {
     .hhrplus-order-info li span {
       display: inline-block;
       float: right; }
+
+.hhrplus-captcha-block img, .hhrplus-captcha-block a {
+  cursor: pointer; }
+
+.control-group .help-block {
+  color: #a94442; }
+
+.control-group .controls .help-block {
+  font-size: 14px; }
+
+.control-group ul {
+  padding-left: 15px; }
+
+.hhrplus-add-on {
+  position: relative; }
+  .hhrplus-add-on .hhrplus-add-on-item {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    pointer-events: none; }
+    .hhrplus-add-on .hhrplus-add-on-item .fa-check-circle-o {
+      color: #5cb85c; }
+    .hhrplus-add-on .hhrplus-add-on-item .fa-times-circle-o {
+      color: #d9534f; }
 
 /*# sourceMappingURL=main.css.map */

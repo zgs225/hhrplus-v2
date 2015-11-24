@@ -11,6 +11,11 @@ require(__DIR__ . "/Routes/Global/Lang.php");
 require(__DIR__ . "/Routes/Global/Payment.php");
 
 /**
+ * 验证码相关
+ */
+require(__DIR__ . "/Routes/Global/Captcha.php");
+
+/**
  * Frontend Routes
  * Namespaces indicate folder structure
  */

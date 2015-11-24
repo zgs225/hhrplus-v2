@@ -30,6 +30,27 @@
             <p class="help-block text-danger"></p>
           </div>
         </div>
+
+        <!-- 图形验证码和短信验证码 -->
+        <div class="form-group control-group">
+          <div class="controls">
+            <div class="input-group">
+              <div class="hhrplus-add-on">
+                {!! Form::text('captcha', null, ['class' => 'form-control captcha-drop-target', 'placeholder' => '输入图形验证码后获取短信验证码', 'required' => true, 'data-validation-required-message' => '请填写图形验证码', 'id' => 'captcha-' . $packageGood->id]) !!}
+              </div>
+              <span class="input-group-btn">
+                <button class="btn btn-default btn-primary btn-flat captcha-btn" type="button" disabled>短信验证码</button>
+              </span>
+            </div>
+            <p class="help-block text-danger"></p>
+          </div>
+        </div>
+        <div class="form-group control-group">
+          <div class="controls">
+            {!! Form::text('smscode', null, ['class' => 'form-control', 'required' => true, 'data-validation-required-message' => '请输入短信验证码', 'placeholder' => '短信验证码']) !!}
+            <p class="help-block text-danger"></p>
+          </div>
+        </div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default btn-flat" data-dismiss="modal">取消</button>

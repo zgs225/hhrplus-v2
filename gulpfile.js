@@ -11,11 +11,15 @@ elixir(function(mix) {
                 'frontend/main.scss'
             ], 'resources/assets/css/frontend/main.css')
         .styles([  // Combine pre-processed CSS files
+                '../../../vendor/bower_components/tether-drop/dist/css/extras/drop-twitter-bootstrap.min.css',
+                '../../../vendor/bower_components/tether-drop/dist/css/drop-theme-hubspot-popovers.min.css',
                 'frontend/main.css',
             ], 'public/css/frontend.css')
         .scripts([ // Combine front-end scripts
                 '../../../vendor/bower_components/slick-carousel/slick/slick.min.js',
                 '../../../vendor/bower_components/jqBootstrapValidation/dist/jqBootstrapValidation-1.3.7.min.js',
+                '../../../vendor/bower_components/tether/dist/js/tether.min.js',
+                '../../../vendor/bower_components/tether-drop/dist/js/drop.min.js',
                 'plugins.js',
                 'frontend/main.js',
             ], 'public/js/frontend.js')

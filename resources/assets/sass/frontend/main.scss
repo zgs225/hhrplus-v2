@@ -254,3 +254,50 @@ footer.copyright {
     }
   }
 }
+
+.hhrplus-captcha-block {
+  img, a {
+    cursor: pointer;
+  }
+}
+
+.control-group {
+  .help-block {
+    color: #a94442;
+  }
+
+  .controls {
+    .help-block {
+      font-size: 14px;
+    }
+  }
+
+  ul {
+    padding-left: 15px;
+  }
+}
+
+.hhrplus-add-on {
+  position: relative;
+
+  .hhrplus-add-on-item {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    pointer-events: none;
+
+    .fa-check-circle-o {
+      color: $brand-success;
+    }
+
+    .fa-times-circle-o {
+      color: $brand-danger;
+    }
+  }
+}
