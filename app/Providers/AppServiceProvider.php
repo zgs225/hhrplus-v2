@@ -95,5 +95,15 @@ class AppServiceProvider extends ServiceProvider {
             \App\Repositories\Frontend\Commerce\OrderContract::class,
             \App\Repositories\Frontend\Commerce\EloquentOrderRepository::class
         );
+
+        $this->app->bind(
+          \App\Repositories\Common\SmsGatewayContract::class,
+          function() {
+            return new \App\Repositories\Common\SmsGateway(
+              config('sms.url'),
+              config('sms.apiKey')
+            );
+          }
+        );
     }
 }
