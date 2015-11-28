@@ -61,7 +61,7 @@ class GoodItemTableSeeder extends Seeder
             array(
                 'package_good_id' => 5,
                 'sku_id' => 5,
-                'price'  => 2398,
+                'price'  => 7980,
                 'quantity' => 1,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
@@ -69,7 +69,7 @@ class GoodItemTableSeeder extends Seeder
             array(
                 'package_good_id' => 6,
                 'sku_id' => 7,
-                'price'  => 480,
+                'price'  => 2398,
                 'quantity' => 1,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()

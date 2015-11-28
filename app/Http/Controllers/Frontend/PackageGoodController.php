@@ -17,7 +17,7 @@ class PackageGoodController extends Controller
      */
     public function index()
     {
-        //
+      return view('frontend.goods.index');
     }
 
     /**

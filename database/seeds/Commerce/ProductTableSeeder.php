@@ -56,15 +56,15 @@ class ProductTableSeeder extends Seeder
             ),
             array(
                 'product_no' => 'B03',
-                'name' => 'DEMO开发',
-                'list_price' => 4980,
+                'name' => 'UI设计',
+                'list_price' => 16980,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ),
             array(
                 'product_no' => 'B04',
-                'name' => '单项技术问题',
-                'list_price' => 500,
+                'name' => 'DEMO开发',
+                'list_price' => 4980,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ),

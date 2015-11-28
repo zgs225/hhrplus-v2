@@ -7,6 +7,7 @@ get('/', 'FrontendController@index')->name('home');
 get('macros', 'FrontendController@macros');
 
 // 查看服务
+get('services', 'PackageGoodController@index')->name('package_goods.index');
 get('services/{id}', 'PackageGoodController@show')->name('package_goods.show');
 
 // 订单相关服务

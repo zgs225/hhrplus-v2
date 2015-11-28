@@ -59,16 +59,16 @@ class PackageGoodTableSeeder extends Seeder
                 'updated_at' => Carbon::now()
             ),
             array(
-                'name' => 'DEMO开发',
-                'status' => 3, // 缺货
+                'name' => 'UI设计',
+                'status' => 1,
                 'is_multiple' => false,
                 'body' => '暂无',
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ),
             array(
-                'name' => '单项技术问题',
-                'status' => 0, // 未上架
+                'name' => 'DEMO开发',
+                'status' => 3, // 缺货
                 'is_multiple' => false,
                 'body' => '暂无',
                 'created_at' => Carbon::now(),
