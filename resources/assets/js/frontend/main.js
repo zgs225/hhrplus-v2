@@ -88,7 +88,7 @@ $(function(){
 
     $.ajax({
       'method' : 'GET',
-      'url'    : '/smscode/send',
+      'url'    : '/captcha/needsSmsValidation',
       'data'   : {'captcha': captcha, 'telephone': telephone},
     }).done(function(data) {
       function countDown() {
@@ -103,7 +103,11 @@ $(function(){
           return true;
         }
 
-        setTimeout(countDown, 1000);
+        if (data.statusCode == 1) {
+          setTimeout(countDown, 1000);
+        } else {
+          alert(data.status);
+        }
       }
 
       if (data.status) {

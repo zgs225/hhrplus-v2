@@ -5,7 +5,7 @@ namespace App\Repositories\Common;
 /**
  * 用于发送短信验证码
  **/
-class SmsGateway
+class SmsGateway implements SmsGatewayContract
 {
   /**
    * request url
