@@ -28,6 +28,7 @@ class OrderRequest extends Request
             'buyer_name' => 'required|max:45',
             'buyer_email' => 'required|email',
             'buyer_telephone' => 'required',
+            'smscode' => 'required|sms_check'
         ];
     }
 }

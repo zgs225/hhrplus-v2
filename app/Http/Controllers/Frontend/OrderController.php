@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Frontend\OrderRequest;
+use App\Repositories\Common\SmsGatewayContract;
 use App\Repositories\Frontend\Commerce\OrderContract;
 
 class OrderController extends Controller
@@ -17,8 +18,14 @@ class OrderController extends Controller
      */
     protected $orders;
 
-    public function __construct(OrderContract $orders) {
-        $this->orders = $orders;
+    /*
+     * @var sms gateway
+     */
+    protected $gateway;
+
+    public function __construct(OrderContract $orders, SmsGatewayContract $gateway) {
+        $this->gateway = $gateway;
+        $this->orders  = $orders;
     }
 
     /**

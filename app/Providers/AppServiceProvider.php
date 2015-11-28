@@ -5,6 +5,7 @@ use App\Models\Product;
 use App\Models\PackageGood;
 use App\Models\Access\User\User;
 
+use Validator;
 use Illuminate\Support\ServiceProvider;
 
 /**
@@ -21,6 +22,7 @@ class AppServiceProvider extends ServiceProvider {
     public function boot()
     {
         $this->registerCascadesDeletesEvents();
+        $this->registerValidators();
     }
 
     /**
@@ -105,5 +107,11 @@ class AppServiceProvider extends ServiceProvider {
             );
           }
         );
+    }
+
+    protected function registerValidators() {
+      Validator::extend('sms_check', function($attribute, $value, $parameters) {
+        return sms_validation_check($value);
+      });
     }
 }
