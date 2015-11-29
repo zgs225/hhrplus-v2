@@ -1,5 +1,5 @@
 @foreach(\App\Models\PackageGood::all() as $packageGood)
-<div class="modal fade" id="product-modal-{{ $packageGood->id }}" tabindex="-1" role="dialog" aria-labelledby="product-label-{{ $packageGood->id }}">
+<div class="modal fade product-modal" id="product-modal-{{ $packageGood->id }}" tabindex="-1" role="dialog" aria-labelledby="product-label-{{ $packageGood->id }}">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">

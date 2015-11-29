@@ -131,6 +131,10 @@ $(function(){
             formGroup.find('.hhrplus-add-on').append(' <span class="hhrplus-add-on-item"> <i class="fa fa-times-circle-o"></i></span>');
           }
         });
+      } else {
+        var formGroup = $(this).closest('.form-group');
+        formGroup.find('.captcha-btn').attr('disabled', true);
+        formGroup.find('.hhrplus-add-on .hhrplus-add-on-item').remove();
       }
   });
 
@@ -207,6 +211,10 @@ $(function(){
         countDown();
       }
     });
+  });
+
+  $('.product-modal').on('hide.bs.modal', function(e) {
+    captchaDrop && captchaDrop.target && captchaDrop.destroy();
   });
 });
 
