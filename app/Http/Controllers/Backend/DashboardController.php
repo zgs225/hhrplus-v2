@@ -8,11 +8,11 @@ use App\Http\Controllers\Controller;
  */
 class DashboardController extends Controller {
 
-	/**
-	 * @return \Illuminate\View\View
-	 */
-	public function index()
-	{
-		return view('backend.dashboard');
-	}
+  /**
+   * @return \Illuminate\View\View
+   */
+  public function index()
+  {
+    return view('backend.dashboard');
+  }
 }

@@ -2,7 +2,7 @@
           <header class="main-header">
 
             <!-- Logo -->
-            <a href="{!!route('home')!!}" class="logo"><b>L5</b>Bootstrap</a>
+            <a href="{!!route('home')!!}" class="logo"><b>HHR</b>Plus</a>
 
             <!-- Header Navbar -->
             <nav class="navbar navbar-static-top" role="navigation">
@@ -13,19 +13,6 @@
               <!-- Navbar Right Menu -->
               <div class="navbar-custom-menu">
                 <ul class="nav navbar-nav">
-
-                  <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{ trans('menus.language-picker.language') }} <span class="caret"></span></a>
-                    <ul class="dropdown-menu" role="menu">
-                      <li>{!! link_to('lang/en', trans('menus.language-picker.langs.en')) !!}</li>
-					  <li>{!! link_to('lang/es', trans('menus.language-picker.langs.es')) !!}</li>
-					  <li>{!! link_to('lang/fr-FR', trans('menus.language-picker.langs.fr-FR')) !!}</li>
-                      <li>{!! link_to('lang/it', trans('menus.language-picker.langs.it')) !!}</li>
-                      <li>{!! link_to('lang/pt-BR', trans('menus.language-picker.langs.pt-BR')) !!}</li>
-                      <li>{!! link_to('lang/ru', trans('menus.language-picker.langs.ru')) !!}</li>    
-                      <li>{!! link_to('lang/sv', trans('menus.language-picker.langs.sv')) !!}</li>
-                    </ul>
-                  </li>
 
                   <!-- Messages: style can be found in dropdown.less-->
                   <li class="dropdown messages-menu">

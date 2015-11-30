@@ -7,7 +7,7 @@
         <meta name="_token" content="{{ csrf_token() }}" />
         <title>@yield('title', app_name())</title>
         <meta name="description" content="@yield('meta_description', 'Default Description')">
-        <meta name="author" content="@yield('author', 'Anthony Rappa')">
+        <meta name="author" content="@yield('author', 'hhrplus team')">
         @yield('meta')
 
         @yield('before-styles-end')

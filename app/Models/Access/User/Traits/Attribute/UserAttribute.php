@@ -34,7 +34,7 @@ trait UserAttribute {
      * @return mixed
      */
     public function getPictureAttribute() {
-        return gravatar()->get($this->email, ['size' => 50]);
+      return '/build/images/default-profile.jpg';
     }
 
     /**

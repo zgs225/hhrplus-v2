@@ -18,46 +18,46 @@ use App\Models\Relations\HasManyOrdersTrait;
  */
 class User extends Model implements AuthenticatableContract, CanResetPasswordContract {
 
-	use Authenticatable,
-		CanResetPassword,
-		SoftDeletes,
-		UserAccess,
-		UserRelationship,
-		UserAttribute,
-        HasManyOrdersTrait;
+  use Authenticatable,
+      CanResetPassword,
+      SoftDeletes,
+      UserAccess,
+      UserRelationship,
+      UserAttribute,
+      HasManyOrdersTrait;
 
-	/**
-	 * The database table used by the model.
-	 *
-	 * @var string
-	 */
-	protected $table = 'users';
+/**
+ * The database table used by the model.
+ *
+ * @var string
+ */
+protected $table = 'users';
 
-	/**
-	 * The attributes that are not mass assignable.
-	 *
-	 * @var array
-	 */
-	protected $guarded = ['id'];
+/**
+ * The attributes that are not mass assignable.
+ *
+ * @var array
+ */
+protected $guarded = ['id'];
 
-	/**
-	 * The attributes excluded from the model's JSON form.
-	 *
-	 * @var array
-	 */
-	protected $hidden = ['password', 'remember_token'];
+/**
+ * The attributes excluded from the model's JSON form.
+ *
+ * @var array
+ */
+protected $hidden = ['password', 'remember_token'];
 
-	/**
-	 * For soft deletes
-	 *
-	 * @var array
-	 */
-	protected $dates = ['deleted_at'];
+/**
+ * For soft deletes
+ *
+ * @var array
+ */
+protected $dates = ['deleted_at'];
 
-	/**
-	 * @return mixed
-	 */
-	public function canChangeEmail() {
-		return config('access.users.change_email');
-	}
+/**
+ * @return mixed
+ */
+public function canChangeEmail() {
+  return config('access.users.change_email');
+}
 }
