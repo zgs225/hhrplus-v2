@@ -34,7 +34,7 @@ class PermissionDependencyTableSeeder extends Seeder {
         ]);
 
         //All of the access permissions need view access management and view backend
-        for ($i = 3; $i <= 23; $i++) {
+        for ($i = 3; $i <= 25; $i++) {
             DB::table(config('access.permission_dependencies_table'))->insert([
                 'permission_id' => $i,
                 'dependency_id' => 1,

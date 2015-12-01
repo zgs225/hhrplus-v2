@@ -59,6 +59,15 @@ class PermissionGroupTableSeeder extends Seeder {
         $permission->updated_at = Carbon::now();
         $permission->save();
 
+        $group_model = config('access.group');
+        $order = new $group_model;
+        $order->name = 'Order';
+        $order->sort = 4;
+        $order->parent_id = $access->id;
+        $order->created_at = Carbon::now();
+        $order->updated_at = Carbon::now();
+        $order->save();
+
         if(env('DB_DRIVER') == 'mysql')
             DB::statement('SET FOREIGN_KEY_CHECKS=1;');
     }
