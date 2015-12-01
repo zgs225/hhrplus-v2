@@ -33,8 +33,15 @@ class PermissionDependencyTableSeeder extends Seeder {
             'updated_at' => Carbon::now()
         ]);
 
+        DB::table(config('access.permission_dependencies_table'))->insert([
+            'permission_id' => 3,
+            'dependency_id' => 1,
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+
         //All of the access permissions need view access management and view backend
-        for ($i = 3; $i <= 25; $i++) {
+        for ($i = 4; $i <= 24; $i++) {
             DB::table(config('access.permission_dependencies_table'))->insert([
                 'permission_id' => $i,
                 'dependency_id' => 1,
@@ -50,7 +57,23 @@ class PermissionDependencyTableSeeder extends Seeder {
             ]);
         }
 
+        for ($i = 25; $i <= 26; $i++) {
+          DB::table(config('access.permission_dependencies_table'))->insert([
+            'permission_id' => $i,
+            'dependency_id' => 1,
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+          ]);
+
+          DB::table(config('access.permission_dependencies_table'))->insert([
+            'permission_id' => $i,
+            'dependency_id' => 3,
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+          ]);
+        }
+
         if(env('DB_DRIVER') == 'mysql')
-            DB::statement('SET FOREIGN_KEY_CHECKS=1;');
+          DB::statement('SET FOREIGN_KEY_CHECKS=1;');
     }
 }

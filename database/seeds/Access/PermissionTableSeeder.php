@@ -53,6 +53,17 @@ class PermissionTableSeeder extends Seeder {
     $viewAccessManagement->updated_at = Carbon::now();
     $viewAccessManagement->save();
 
+    $permission_model = config('access.permission');
+    $viewOrderManagement = new $permission_model;
+    $viewOrderManagement->name = 'view-order-management';
+    $viewOrderManagement->display_name = '查看订单管理';
+    $viewOrderManagement->system = true;
+    $viewOrderManagement->group_id = 1;
+    $viewOrderManagement->sort = 3;
+    $viewOrderManagement->created_at = Carbon::now();
+    $viewOrderManagement->updated_at = Carbon::now();
+    $viewOrderManagement->save();
+
     /**
      * Access Permissions
      */
