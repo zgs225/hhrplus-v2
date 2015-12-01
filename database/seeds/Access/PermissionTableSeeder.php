@@ -55,7 +55,7 @@ class PermissionTableSeeder extends Seeder {
 
     $permission_model = config('access.permission');
     $viewOrderManagement = new $permission_model;
-    $viewOrderManagement->name = 'view-order-management';
+    $viewOrderManagement->name = 'view-orders-management';
     $viewOrderManagement->display_name = '查看订单管理';
     $viewOrderManagement->system = true;
     $viewOrderManagement->group_id = 1;

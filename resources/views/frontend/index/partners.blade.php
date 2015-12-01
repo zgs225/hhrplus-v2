@@ -14,9 +14,6 @@
         <img class="img-responsive" data-lazy="/build/images/partners/youjiagongyu.jpg">
       </div>
       <div class="col-md-3 col-sm-4 col-xs-6 client-item">
-        <img class="img-responsive" data-lazy="/build/images/partners/hongtaijijin.jpg">
-      </div>
-      <div class="col-md-3 col-sm-4 col-xs-6 client-item">
         <img class="img-responsive" data-lazy="/build/images/partners/ceshixiongdi.jpg">
       </div>
       <div class="col-md-3 col-sm-4 col-xs-6 client-item">

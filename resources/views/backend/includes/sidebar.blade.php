@@ -37,6 +37,11 @@
                   <li class="{{ Active::pattern('admin/access/*') }}"><a href="{!!url('admin/access/users')!!}"><span>{{ trans('menus.access_management') }}</span></a></li>
                 @endauth
 
+                @permission('view-orders-management')
+                  <li class="{{ Active::pattern('admin/orders*') }}"><a
+                  href="{!!url('admin/orders')!!}"><span>{{ trans('menus.orders_management') }}</span></a></li>
+                @endauth
+
                  <li class="{{ Active::pattern('admin/log-viewer*') }} treeview">
                   <a href="#">
                     <span>{{ trans('menus.log-viewer.main') }}</span>
