@@ -84,9 +84,14 @@
     @include clearfix;
 
     .hhrplus-product-panel {
+      padding-left: 20px;
+      margin-top: 15px;
+
       @media (min-width: $screen-sm-min) {
         margin-left: 15px;
         margin-right: 15px;
+        padding-left: 0;
+        margin-top: 0;
       }
     }
 
@@ -106,14 +111,10 @@
     }
 
     .hhrplus-leading {
-      font-size: 20px;
+      font-size: 26px;
       font-weight: lighter;
       color: #333333;
       font-family: "YouYuan", "幼圆", "STYuanti-SC-Light", "Microsoft YaHei", "微软雅黑", sans-serif;
-
-      @media (min-width: $screen-sm-min) {
-        font-size: 26px;
-      }
     }
 
     .hhrplus-product-price {
@@ -128,15 +129,12 @@
     }
 
     .hhrplus-product-title {
-      font-family: "FZLTTHK--GBK1-0", "兰亭黑-简 特黑", "HiraginoSansGB-W6", "冬青黑体简体中文 W6", "STHeiti", "华文黑体", "MicrosoftYaHei", "微软雅黑", sans-serif;
-      font-size: 16px;
+      font-family: "HiraginoSansGB-W6", "冬青黑体简体中文 W6", "STHeiti", "华文黑体", "MicrosoftYaHei", "微软雅黑", sans-serif;
+      font-size: 24px;
       font-weight: bolder;
       color: #2a3339;
       margin-top: 30px;
       margin-bottom: 5px;
-      @media (min-width: $screen-sm-min) {
-        font-size: 24px;
-      }
     }
 
     .hhrplus-product-actions {
@@ -386,5 +384,17 @@ footer.copyright {
     .fa-times-circle-o {
       color: $brand-danger;
     }
+  }
+}
+
+.navbar-brand img {
+  height: 30px;
+}
+
+.hhrplus-container {
+  @include container-fixed;
+
+  @media (min-width: $screen-sm-min) {
+    width: 900px;
   }
 }

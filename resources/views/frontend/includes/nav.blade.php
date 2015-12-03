@@ -1,5 +1,5 @@
 <nav class="navbar navbar-default">
-  <div class="container">
+  <div class="hhrplus-container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav">
         <span class="sr-only">{{ trans('labels.toggle_navigation') }}</span>
@@ -7,7 +7,9 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/">{{ app_name() }}</a>
+      <a class="navbar-brand" href="/">
+        <img src="/build/images/logo.png" alt="合伙人+Logo">
+      </a>
     </div>
 
     <div class="collapse navbar-collapse" id="main-nav">

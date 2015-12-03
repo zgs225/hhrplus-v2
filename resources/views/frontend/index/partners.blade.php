@@ -1,5 +1,5 @@
 <div class="hhrplus-block clearfix">
-  <div class="container">
+  <div class="hhrplus-container">
     <div class="hhrplus-block-header">
       <h2 class="text-center">
         我们的伙伴

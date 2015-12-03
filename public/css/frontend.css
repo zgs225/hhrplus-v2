@@ -8031,10 +8031,15 @@ button.close {
     display: table; }
   .products .hhrplus-product-item:after {
     clear: both; }
-  @media (min-width: 768px) {
-    .products .hhrplus-product-item .hhrplus-product-panel {
-      margin-left: 15px;
-      margin-right: 15px; } }
+  .products .hhrplus-product-item .hhrplus-product-panel {
+    padding-left: 20px;
+    margin-top: 15px; }
+    @media (min-width: 768px) {
+      .products .hhrplus-product-item .hhrplus-product-panel {
+        margin-left: 15px;
+        margin-right: 15px;
+        padding-left: 0;
+        margin-top: 0; } }
   @media (min-width: 768px) {
     .products .hhrplus-product-item .hhrplus-product-panel.hhrplus-product-sp-1 {
       position: absolute;
@@ -8045,13 +8050,10 @@ button.close {
       position: absolute;
       top: 116px; } }
   .products .hhrplus-product-item .hhrplus-leading {
-    font-size: 20px;
+    font-size: 26px;
     font-weight: lighter;
     color: #333333;
     font-family: "YouYuan", "幼圆", "STYuanti-SC-Light", "Microsoft YaHei", "微软雅黑", sans-serif; }
-    @media (min-width: 768px) {
-      .products .hhrplus-product-item .hhrplus-leading {
-        font-size: 26px; } }
   .products .hhrplus-product-item .hhrplus-product-price {
     font-family: SimSun, "宋体", Heiti, "黑体", sans-serif;
     color: #c30821;
@@ -8060,15 +8062,12 @@ button.close {
     .products .hhrplus-product-item .hhrplus-product-price .text-gray {
       color: #757880; }
   .products .hhrplus-product-item .hhrplus-product-title {
-    font-family: "FZLTTHK--GBK1-0", "兰亭黑-简 特黑", "HiraginoSansGB-W6", "冬青黑体简体中文 W6", "STHeiti", "华文黑体", "MicrosoftYaHei", "微软雅黑", sans-serif;
-    font-size: 16px;
+    font-family: "HiraginoSansGB-W6", "冬青黑体简体中文 W6", "STHeiti", "华文黑体", "MicrosoftYaHei", "微软雅黑", sans-serif;
+    font-size: 24px;
     font-weight: bolder;
     color: #2a3339;
     margin-top: 30px;
     margin-bottom: 5px; }
-    @media (min-width: 768px) {
-      .products .hhrplus-product-item .hhrplus-product-title {
-        font-size: 24px; } }
   .products .hhrplus-product-item .hhrplus-product-actions {
     margin-top: 10px; }
     .products .hhrplus-product-item .hhrplus-product-actions .btn-hhrplus {
@@ -8271,6 +8270,23 @@ footer.copyright {
       color: #5cb85c; }
     .hhrplus-add-on .hhrplus-add-on-item .fa-times-circle-o {
       color: #d9534f; }
+
+.navbar-brand img {
+  height: 30px; }
+
+.hhrplus-container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px; }
+  .hhrplus-container:before, .hhrplus-container:after {
+    content: " ";
+    display: table; }
+  .hhrplus-container:after {
+    clear: both; }
+  @media (min-width: 768px) {
+    .hhrplus-container {
+      width: 900px; } }
 
 /*# sourceMappingURL=main.css.map */
 
