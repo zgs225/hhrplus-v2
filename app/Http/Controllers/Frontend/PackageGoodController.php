@@ -17,7 +17,11 @@ class PackageGoodController extends Controller
      */
     public function index()
     {
-      return view('frontend.goods.index');
+      $talks = PackageGood::with('goodItems')->whereIn('id', [1, 2])->get();
+      $makes = PackageGood::with('goodItems')->whereIn('id', [3, 4, 5, 6])->get();
+      $devs  = PackageGood::with('goodItems')->whereIn('id', [7, 8, 9])->get();
+
+      return view('frontend.goods.index', compact('talks', 'makes', 'devs'));
     }
 
     /**

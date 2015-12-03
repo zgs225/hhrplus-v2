@@ -9,6 +9,7 @@ get('macros', 'FrontendController@macros');
 // 查看服务
 get('services', 'PackageGoodController@index')->name('package_goods.index');
 get('services/{id}', 'PackageGoodController@show')->name('package_goods.show');
+get('services/{id}/buy', 'PackageGoodController@buy')->name('package_goods.buy');
 
 // 订单相关服务
 post('orders', 'OrderController@store')->name('orders.store');

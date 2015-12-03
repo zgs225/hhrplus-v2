@@ -15,10 +15,10 @@
           1元/次
         </div>
         <div class="hhrplus-product-actions">
-          <a class="btn btn-primary btn-hhrplus" href="/services/1">
+          <a class="btn btn-primary btn-hhrplus" href="{{ route('package_goods.buy', $packageGood->id) }}">
             立即购买
           </a>
-          <a class="btn btn-default btn-hhrplus btn-gray" href="/services/1">
+          <a class="btn btn-default btn-hhrplus btn-gray" href="{{ route('package_goods.show', $packageGood->id) }}">
             查看详情
           </a>
         </div>

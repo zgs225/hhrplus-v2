@@ -8052,13 +8052,6 @@ button.close {
     font-weight: lighter;
     color: #333333;
     font-family: "YouYuan", "幼圆", "STYuanti-SC-Light", "Microsoft YaHei", "微软雅黑", sans-serif; }
-  .products .hhrplus-product-item .hhrplus-product-price {
-    font-family: SimSun, "宋体", Heiti, "黑体", sans-serif;
-    color: #c30821;
-    font-size: 16px;
-    font-weight: lighter; }
-    .products .hhrplus-product-item .hhrplus-product-price .text-gray {
-      color: #757880; }
   .products .hhrplus-product-item .hhrplus-product-title {
     font-family: "HiraginoSansGB-W6", "冬青黑体简体中文 W6", "STHeiti", "华文黑体", "MicrosoftYaHei", "微软雅黑", sans-serif;
     font-size: 24px;
@@ -8066,55 +8059,6 @@ button.close {
     color: #2a3339;
     margin-top: 30px;
     margin-bottom: 5px; }
-  .products .hhrplus-product-item .hhrplus-product-actions {
-    margin-top: 10px; }
-    .products .hhrplus-product-item .hhrplus-product-actions .btn-hhrplus {
-      border: none;
-      border-radius: 3px;
-      padding: 8px 40px;
-      margin-right: 10px;
-      font-size: 14px; }
-      .products .hhrplus-product-item .hhrplus-product-actions .btn-hhrplus:last-child {
-        margin-right: 0; }
-    .products .hhrplus-product-item .hhrplus-product-actions .btn-hhrplus.btn-gray {
-      color: #434c52;
-      background-color: #dbe4e8;
-      border-color: #dbe4e8; }
-      .products .hhrplus-product-item .hhrplus-product-actions .btn-hhrplus.btn-gray:focus, .products .hhrplus-product-item .hhrplus-product-actions .btn-hhrplus.btn-gray.focus {
-        color: #434c52;
-        background-color: #bccdd4;
-        border-color: #8daab6; }
-      .products .hhrplus-product-item .hhrplus-product-actions .btn-hhrplus.btn-gray:hover {
-        color: #434c52;
-        background-color: #bccdd4;
-        border-color: #b6c8d0; }
-      .products .hhrplus-product-item .hhrplus-product-actions .btn-hhrplus.btn-gray:active, .products .hhrplus-product-item .hhrplus-product-actions .btn-hhrplus.btn-gray.active,
-      .open > .products .hhrplus-product-item .hhrplus-product-actions .btn-hhrplus.btn-gray.dropdown-toggle {
-        color: #434c52;
-        background-color: #bccdd4;
-        border-color: #b6c8d0; }
-        .products .hhrplus-product-item .hhrplus-product-actions .btn-hhrplus.btn-gray:active:hover, .products .hhrplus-product-item .hhrplus-product-actions .btn-hhrplus.btn-gray:active:focus, .products .hhrplus-product-item .hhrplus-product-actions .btn-hhrplus.btn-gray:active.focus, .products .hhrplus-product-item .hhrplus-product-actions .btn-hhrplus.btn-gray.active:hover, .products .hhrplus-product-item .hhrplus-product-actions .btn-hhrplus.btn-gray.active:focus, .products .hhrplus-product-item .hhrplus-product-actions .btn-hhrplus.btn-gray.active.focus,
-        .open > .products .hhrplus-product-item .hhrplus-product-actions .btn-hhrplus.btn-gray.dropdown-toggle:hover,
-        .open > .products .hhrplus-product-item .hhrplus-product-actions .btn-hhrplus.btn-gray.dropdown-toggle:focus,
-        .open > .products .hhrplus-product-item .hhrplus-product-actions .btn-hhrplus.btn-gray.dropdown-toggle.focus {
-          color: #434c52;
-          background-color: #a6bcc6;
-          border-color: #8daab6; }
-      .products .hhrplus-product-item .hhrplus-product-actions .btn-hhrplus.btn-gray:active, .products .hhrplus-product-item .hhrplus-product-actions .btn-hhrplus.btn-gray.active,
-      .open > .products .hhrplus-product-item .hhrplus-product-actions .btn-hhrplus.btn-gray.dropdown-toggle {
-        background-image: none; }
-      .products .hhrplus-product-item .hhrplus-product-actions .btn-hhrplus.btn-gray.disabled, .products .hhrplus-product-item .hhrplus-product-actions .btn-hhrplus.btn-gray.disabled:hover, .products .hhrplus-product-item .hhrplus-product-actions .btn-hhrplus.btn-gray.disabled:focus, .products .hhrplus-product-item .hhrplus-product-actions .btn-hhrplus.btn-gray.disabled.focus, .products .hhrplus-product-item .hhrplus-product-actions .btn-hhrplus.btn-gray.disabled:active, .products .hhrplus-product-item .hhrplus-product-actions .btn-hhrplus.btn-gray.disabled.active, .products .hhrplus-product-item .hhrplus-product-actions .btn-hhrplus.btn-gray[disabled], .products .hhrplus-product-item .hhrplus-product-actions .btn-hhrplus.btn-gray[disabled]:hover, .products .hhrplus-product-item .hhrplus-product-actions .btn-hhrplus.btn-gray[disabled]:focus, .products .hhrplus-product-item .hhrplus-product-actions .btn-hhrplus.btn-gray[disabled].focus, .products .hhrplus-product-item .hhrplus-product-actions .btn-hhrplus.btn-gray[disabled]:active, .products .hhrplus-product-item .hhrplus-product-actions .btn-hhrplus.btn-gray[disabled].active,
-      fieldset[disabled] .products .hhrplus-product-item .hhrplus-product-actions .btn-hhrplus.btn-gray,
-      fieldset[disabled] .products .hhrplus-product-item .hhrplus-product-actions .btn-hhrplus.btn-gray:hover,
-      fieldset[disabled] .products .hhrplus-product-item .hhrplus-product-actions .btn-hhrplus.btn-gray:focus,
-      fieldset[disabled] .products .hhrplus-product-item .hhrplus-product-actions .btn-hhrplus.btn-gray.focus,
-      fieldset[disabled] .products .hhrplus-product-item .hhrplus-product-actions .btn-hhrplus.btn-gray:active,
-      fieldset[disabled] .products .hhrplus-product-item .hhrplus-product-actions .btn-hhrplus.btn-gray.active {
-        background-color: #dbe4e8;
-        border-color: #dbe4e8; }
-      .products .hhrplus-product-item .hhrplus-product-actions .btn-hhrplus.btn-gray .badge {
-        color: #dbe4e8;
-        background-color: #434c52; }
 
 .pricing {
   background: #3498db;
@@ -8285,5 +8229,101 @@ footer.copyright {
   @media (min-width: 768px) {
     .hhrplus-container {
       width: 900px; } }
+
+.hhrplus-container .hhrplus-product-list-item {
+  margin-bottom: 40px; }
+  .hhrplus-container .hhrplus-product-list-item .hhrplus-product-list-cover {
+    margin-left: auto;
+    margin-right: auto; }
+    @media (min-width: 768px) {
+      .hhrplus-container .hhrplus-product-list-item .hhrplus-product-list-cover {
+        max-width: 300px; } }
+    .hhrplus-container .hhrplus-product-list-item .hhrplus-product-list-cover img {
+      margin-left: auto;
+      margin-right: auto; }
+  .hhrplus-container .hhrplus-product-list-item .hhrplus-product-list-panel h3 {
+    margin-top: 0; }
+
+.hhrplus-container .hhrplus-products-header {
+  margin-top: 40px;
+  position: relative; }
+  .hhrplus-container .hhrplus-products-header h4 {
+    text-align: center;
+    color: #606060; }
+    .hhrplus-container .hhrplus-products-header h4:before, .hhrplus-container .hhrplus-products-header h4:after {
+      content: "";
+      display: block;
+      width: 40%;
+      height: 1px;
+      position: absolute;
+      float: left;
+      top: 9px;
+      border-bottom: 1px dashed #a3a3a3; }
+      @media (min-width: 768px) {
+        .hhrplus-container .hhrplus-products-header h4:before, .hhrplus-container .hhrplus-products-header h4:after {
+          width: 45%; } }
+    .hhrplus-container .hhrplus-products-header h4:after {
+      margin-left: 60%; }
+      @media (min-width: 768px) {
+        .hhrplus-container .hhrplus-products-header h4:after {
+          margin-left: 55%; } }
+
+.hhrplus-product-price {
+  font-family: SimSun, "宋体", Heiti, "黑体", sans-serif;
+  color: #c30821;
+  font-size: 16px;
+  font-weight: lighter; }
+  .hhrplus-product-price .text-gray {
+    color: #757880; }
+
+.hhrplus-product-actions {
+  margin-top: 10px; }
+  .hhrplus-product-actions .btn-hhrplus {
+    border: none;
+    border-radius: 3px;
+    padding: 8px 40px;
+    margin-right: 10px;
+    font-size: 14px; }
+    .hhrplus-product-actions .btn-hhrplus:last-child {
+      margin-right: 0; }
+  .hhrplus-product-actions .btn-hhrplus.btn-gray {
+    color: #434c52;
+    background-color: #dbe4e8;
+    border-color: #dbe4e8; }
+    .hhrplus-product-actions .btn-hhrplus.btn-gray:focus, .hhrplus-product-actions .btn-hhrplus.btn-gray.focus {
+      color: #434c52;
+      background-color: #bccdd4;
+      border-color: #8daab6; }
+    .hhrplus-product-actions .btn-hhrplus.btn-gray:hover {
+      color: #434c52;
+      background-color: #bccdd4;
+      border-color: #b6c8d0; }
+    .hhrplus-product-actions .btn-hhrplus.btn-gray:active, .hhrplus-product-actions .btn-hhrplus.btn-gray.active,
+    .open > .hhrplus-product-actions .btn-hhrplus.btn-gray.dropdown-toggle {
+      color: #434c52;
+      background-color: #bccdd4;
+      border-color: #b6c8d0; }
+      .hhrplus-product-actions .btn-hhrplus.btn-gray:active:hover, .hhrplus-product-actions .btn-hhrplus.btn-gray:active:focus, .hhrplus-product-actions .btn-hhrplus.btn-gray:active.focus, .hhrplus-product-actions .btn-hhrplus.btn-gray.active:hover, .hhrplus-product-actions .btn-hhrplus.btn-gray.active:focus, .hhrplus-product-actions .btn-hhrplus.btn-gray.active.focus,
+      .open > .hhrplus-product-actions .btn-hhrplus.btn-gray.dropdown-toggle:hover,
+      .open > .hhrplus-product-actions .btn-hhrplus.btn-gray.dropdown-toggle:focus,
+      .open > .hhrplus-product-actions .btn-hhrplus.btn-gray.dropdown-toggle.focus {
+        color: #434c52;
+        background-color: #a6bcc6;
+        border-color: #8daab6; }
+    .hhrplus-product-actions .btn-hhrplus.btn-gray:active, .hhrplus-product-actions .btn-hhrplus.btn-gray.active,
+    .open > .hhrplus-product-actions .btn-hhrplus.btn-gray.dropdown-toggle {
+      background-image: none; }
+    .hhrplus-product-actions .btn-hhrplus.btn-gray.disabled, .hhrplus-product-actions .btn-hhrplus.btn-gray.disabled:hover, .hhrplus-product-actions .btn-hhrplus.btn-gray.disabled:focus, .hhrplus-product-actions .btn-hhrplus.btn-gray.disabled.focus, .hhrplus-product-actions .btn-hhrplus.btn-gray.disabled:active, .hhrplus-product-actions .btn-hhrplus.btn-gray.disabled.active, .hhrplus-product-actions .btn-hhrplus.btn-gray[disabled], .hhrplus-product-actions .btn-hhrplus.btn-gray[disabled]:hover, .hhrplus-product-actions .btn-hhrplus.btn-gray[disabled]:focus, .hhrplus-product-actions .btn-hhrplus.btn-gray[disabled].focus, .hhrplus-product-actions .btn-hhrplus.btn-gray[disabled]:active, .hhrplus-product-actions .btn-hhrplus.btn-gray[disabled].active,
+    fieldset[disabled] .hhrplus-product-actions .btn-hhrplus.btn-gray,
+    fieldset[disabled] .hhrplus-product-actions .btn-hhrplus.btn-gray:hover,
+    fieldset[disabled] .hhrplus-product-actions .btn-hhrplus.btn-gray:focus,
+    fieldset[disabled] .hhrplus-product-actions .btn-hhrplus.btn-gray.focus,
+    fieldset[disabled] .hhrplus-product-actions .btn-hhrplus.btn-gray:active,
+    fieldset[disabled] .hhrplus-product-actions .btn-hhrplus.btn-gray.active {
+      background-color: #dbe4e8;
+      border-color: #dbe4e8; }
+    .hhrplus-product-actions .btn-hhrplus.btn-gray .badge {
+      color: #dbe4e8;
+      background-color: #434c52; }
 
 /*# sourceMappingURL=main.css.map */

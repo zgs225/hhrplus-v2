@@ -117,16 +117,6 @@
       font-family: "YouYuan", "幼圆", "STYuanti-SC-Light", "Microsoft YaHei", "微软雅黑", sans-serif;
     }
 
-    .hhrplus-product-price {
-      font-family: SimSun, "宋体", Heiti, "黑体", sans-serif;
-      color: #c30821;
-      font-size: 16px;
-      font-weight: lighter;
-
-      .text-gray {
-        color: #757880;
-      }
-    }
 
     .hhrplus-product-title {
       font-family: "HiraginoSansGB-W6", "冬青黑体简体中文 W6", "STHeiti", "华文黑体", "MicrosoftYaHei", "微软雅黑", sans-serif;
@@ -137,25 +127,6 @@
       margin-bottom: 5px;
     }
 
-    .hhrplus-product-actions {
-      margin-top: 10px;
-
-      .btn-hhrplus {
-        border: none;
-        border-radius: 3px;
-        padding: 8px 40px;
-        margin-right: 10px;
-        font-size: 14px;
-
-        &:last-child {
-          margin-right: 0;
-        }
-      }
-
-      .btn-hhrplus.btn-gray {
-        @include button-variant(#434c52, #dbe4e8, #dbe4e8);
-      }
-    }
   }
 }
 
@@ -396,5 +367,96 @@ footer.copyright {
 
   @media (min-width: $screen-sm-min) {
     width: 900px;
+  }
+}
+
+.hhrplus-container {
+
+  .hhrplus-product-list-item {
+    margin-bottom: 40px;
+
+    .hhrplus-product-list-cover {
+      margin-left: auto;
+      margin-right: auto;
+
+      @media(min-width: $screen-sm-min) {
+        max-width: 300px;
+      }
+
+      img {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+
+    .hhrplus-product-list-panel {
+      h3 {
+        margin-top: 0;
+      }
+    }
+  }
+
+  .hhrplus-products-header {
+    margin-top: 40px;
+    position: relative;
+
+    h4 {
+      text-align: center;
+      color: #606060;
+
+      &:before, &:after {
+        content: "";
+        display: block;
+        width: 40%;
+        height: 1px;
+        position: absolute;
+        float: left;
+        top: 9px;
+        border-bottom: 1px dashed #a3a3a3;
+
+        @media (min-width: $screen-sm-min) {
+          width: 45%;
+        }
+      }
+
+      &:after {
+        margin-left: 60%;
+
+        @media (min-width: $screen-sm-min) {
+          margin-left: 55%;
+        }
+      }
+    }
+  }
+}
+
+.hhrplus-product-price {
+  font-family: SimSun, "宋体", Heiti, "黑体", sans-serif;
+  color: #c30821;
+  font-size: 16px;
+  font-weight: lighter;
+
+  .text-gray {
+    color: #757880;
+  }
+}
+
+.hhrplus-product-actions {
+  margin-top: 10px;
+
+  .btn-hhrplus {
+    border: none;
+    border-radius: 3px;
+    padding: 8px 40px;
+    margin-right: 10px;
+    font-size: 14px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .btn-hhrplus.btn-gray {
+    @include button-variant(#434c52, #dbe4e8, #dbe4e8);
   }
 }
