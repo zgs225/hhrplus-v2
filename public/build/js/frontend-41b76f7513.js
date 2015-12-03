@@ -148,7 +148,7 @@ $(function(){
       content  : '<div class="hhrplus-captcha-block"><img src="/captcha? ' + Math.random() + '" alt="合伙人+图形验证码"><br><a href="#">看不清？</a></div>',
       position : 'bottom left',
       classes  : 'drop-theme-hubspot-popovers',
-      openOn   : 'click'
+      openOn   : 'always'
     });
 
     $(this).val('');
@@ -157,6 +157,12 @@ $(function(){
     formGroup.find('.captcha-btn').attr('disabled', true);
     captchaValid = false;
   });
+
+  if (captchaDrop && captchaDrop.isOpened()) {
+    $('not:(input[name=captcha])').click(function() {
+      captchaDrop.destroy();
+    });
+  }
 
   $(':has(input[name=captcha])').delegate('.hhrplus-captcha-block img, .hhrplus-captcha-block a', 'click', function(e) {
     e.preventDefault();
