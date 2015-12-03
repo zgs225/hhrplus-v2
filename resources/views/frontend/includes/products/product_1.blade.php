@@ -1,32 +1,29 @@
-<div class="pricing animated swing">
-  <div class="thumbnail animated pulse infinite">
-    <div class="fa fa-commenting"></div>
-  </div>
-  <div class="title">
-  约技术聊
-  </div>
-  <div class="content" style="display: block;">
-    <div class="sub-title"> ￥1元/次 </div>
-    <ul>
-      <li>
-        <div class="fa fa-check-circle-o"></div>
-        对项目进行梳理
-      </li>
-      <li>
-        <div class="fa fa-hand-o-up"></div>
-        给出技术方向、技术建议
-      </li>
-      <li>
-        <div class="fa fa-users"></div>
-        给出技术成本预估和技术团队组建建议
-      </li>
-      <li>
-        <div class="fa fa-superscript"></div>
-        资深技术团队，项目经验丰富
-      </li>
-    </ul>
-    <a data-toggle="modal" data-target="#product-modal-1" href="#">
-    立即购买
-    </a>
+<div class="hhrplus-product-item row">
+  <div class="row">
+    <div class="col-sm-6 col-xs-12">
+      <img class="img-responsive hhrplus-product-cover pull-right" src="/build/images/products/covers/1.png" alt="约技术聊">
+    </div>
+    <div class="col-sm-6 col-xs-12">
+      <div class="hhrplus-product-panel">
+        <div class="hhrplus-leading">
+          IDEA有了，技术能实现吗?
+        </div>
+        <h2 class="hhrplus-product-title">
+          约技术聊
+        </h2>
+        <div class="hhrplus-product-price">
+          1元/次
+        </div>
+        <div class="hhrplus-product-actions">
+          <a class="btn btn-primary btn-hhrplus" href="/services/1">
+            立即购买
+          </a>
+          <a class="btn btn-default btn-hhrplus btn-gray" href="/services/1">
+            查看详情
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
+<div class="clearfix visible-xs-block"></div>

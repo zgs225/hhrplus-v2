@@ -1,33 +1,30 @@
-<div class="pricing animated swing">
-  <div class="thumbnail animated pulse infinite">
-    <div class="fa fa-desktop"></div>
-  </div>
-  <div class="title">
-  产品原型
-  </div>
-  <div class="content" style="display: block;">
-    <div class="sub-title"> ￥1398元/份</div>
-    <ul>
-      <li>
-        <div class="fa fa-users"></div>
-        一次两小时的产品原型讨论会
-      </li>
-      <li>
-        <div class="fa fa-file-o"></div>
-        提供可交互原型文件
-      </li>
-      <li>
-        <div class="fa fa-clock-o"></div>
-        三个工作日完成
-      </li>
-      <li>
-        <div class="fa fa-folder-o"></div>
-        客户需提供完整的需求文档
-      </li>
-    </ul>
-    <a data-toggle="modal" data-target="#product-modal-4" href="#">
-    立即购买
-    </a>
+<div class="hhrplus-product-item row">
+  <div class="row">
+    <div class="col-sm-6 col-xs-12">
+      <img class="img-responsive hhrplus-product-cover pull-right" src="/build/images/products/covers/4.png" alt="约技术聊">
+    </div>
+    <div class="col-sm-6 col-xs-12">
+      <div class="hhrplus-product-panel hhrplus-product-sp-2">
+        <div class="hhrplus-leading">
+          开发完的产品, 结构什么样?
+        </div>
+        <h2 class="hhrplus-product-title">
+          产品原型
+        </h2>
+        <div class="hhrplus-product-price">
+          1398元<span class="text-gray">(原价: 2980元)</span>
+        </div>
+        <div class="hhrplus-product-actions">
+          <a class="btn btn-primary btn-hhrplus" href="/services/4">
+            立即购买
+          </a>
+          <a class="btn btn-default btn-hhrplus btn-gray" href="/services/4">
+            查看详情
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
+<div class="clearfix visible-xs-block"></div>
 

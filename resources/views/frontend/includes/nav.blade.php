@@ -14,7 +14,6 @@
       <ul class="nav navbar-nav navbar-right">
         <li>{!! link_to('/', trans('navs.home')) !!}</li>
         <li>{!! link_to('services', trans('navs.services')) !!}</li>
-        <li>{!! link_to('clients', trans('navs.clients')) !!}</li>
         <li>{!! link_to('about', trans('navs.about')) !!}</li>
       </ul>
     </div>

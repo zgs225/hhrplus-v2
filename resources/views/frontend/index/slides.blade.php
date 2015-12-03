@@ -1,11 +1,11 @@
 <div class="clearfix">
   <div class="hhrplus-slides">
     <div class="slide-item">
-      <img class="img-responsive" data-lazy="/build/images/banners1.png">
-    </div>
-    <div class="slide-item">
-      <a href="#" data-toggle="modal" data-target="#product-modal-1">
-        <img class="img-responsive" data-lazy="/build/images/banners2.png">
+      <a href="{{ route('package_goods.index') }}" target="_blank" class="hidden-xs">
+        <img class="img-responsive" data-lazy="/build/images/banners1.jpg">
+      </a>
+      <a href="{{ route('package_goods.index') }}" target="_blank" class="visible-xs">
+        <img class="img-responsive" data-lazy="/build/images/mobile-banners-1.jpg">
       </a>
     </div>
   </div>

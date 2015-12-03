@@ -19,7 +19,8 @@
     "creativeorange/gravatar": "~1.0",
     "ignited/laravel-omnipay": "^2.1",
     "lokielse/omnipay-alipay": "^1.4",
-    "mews/captcha": "^2.1"
+    "mews/captcha": "^2.1",
+    "hisorange/browser-detect": "^2.0"
   },
   "require-dev": {
     "fzaninotto/faker": "~1.4",

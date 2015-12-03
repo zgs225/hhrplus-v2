@@ -170,6 +170,7 @@ return [
     'Potsky\LaravelLocalizationHelpers\LaravelLocalizationHelpersServiceProviderLaravel5',
     'Ignited\LaravelOmnipay\LaravelOmnipayServiceProvider',
     Mews\Captcha\CaptchaServiceProvider::class,
+    hisorange\BrowserDetect\Provider\BrowserDetectService::class,
   ],
 
   /*
@@ -226,5 +227,6 @@ return [
     'Socialize' => 'Laravel\Socialite\Facades\Socialite',
     'Omnipay' => 'Ignited\LaravelOmnipay\Facades\OmnipayFacade',
     'Captcha' => Mews\Captcha\Facades\Captcha::class,
+    'BrowserDetect' => hisorange\BrowserDetect\Facade\Parser::class,
   ],
 ];

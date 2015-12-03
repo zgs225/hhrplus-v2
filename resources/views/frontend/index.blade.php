@@ -10,21 +10,13 @@
 
     @include ('frontend.index.products')
 
-    @include ('frontend.index.clients')
-
     @include ('frontend.index.partners')
   </div><!-- row -->
 @endsection
 
 @section ('after-scripts-end')
+@if (!BrowserDetect::isDesktop())
 <script>
-$('.hhrplus-slides').slick({
-  'autoplay'      : true,
-  'autoplaySpeed' : 4321,
-  'lazyLoad'      : 'ondemand',
-  'dots'          : true,
-});
-
 $('.hhrplus-clients, .hhrplus-partners').slick({
   'lazyLoad'       : 'ondemand',
   'slidesToShow'   : 4,
@@ -55,5 +47,16 @@ $('.hhrplus-clients, .hhrplus-partners').slick({
     }
   ]
 });
+</script>
+@endif
+
+<script>
+$('.hhrplus-slides').slick({
+  'autoplay'      : true,
+  'autoplaySpeed' : 4321,
+  'lazyLoad'      : 'ondemand',
+  'dots'          : true,
+});
+
 </script>
 @stop
