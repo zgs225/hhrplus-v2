@@ -2310,9 +2310,9 @@ output {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s; }
   .form-control:focus {
-    border-color: #66afe9;
+    border-color: #90bf45;
     outline: 0;
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6); }
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(144, 191, 69, 0.6); }
   .form-control::-moz-placeholder {
     color: #999;
     opacity: 1; }
@@ -8328,58 +8328,82 @@ footer.copyright {
 
 .hhrplus-product-actions {
   margin-top: 10px; }
-  .hhrplus-product-actions .btn-hhrplus {
-    border: none;
-    border-radius: 3px;
-    padding: 8px 40px;
-    margin-right: 10px;
-    font-size: 14px; }
-    .hhrplus-product-actions .btn-hhrplus:last-child {
-      margin-right: 0; }
-  .hhrplus-product-actions .btn-hhrplus.btn-gray {
-    color: #434c52;
-    background-color: #dbe4e8;
-    border-color: #dbe4e8; }
-    .hhrplus-product-actions .btn-hhrplus.btn-gray:focus, .hhrplus-product-actions .btn-hhrplus.btn-gray.focus {
-      color: #434c52;
-      background-color: #bccdd4;
-      border-color: #8daab6; }
-    .hhrplus-product-actions .btn-hhrplus.btn-gray:hover {
-      color: #434c52;
-      background-color: #bccdd4;
-      border-color: #b6c8d0; }
-    .hhrplus-product-actions .btn-hhrplus.btn-gray:active, .hhrplus-product-actions .btn-hhrplus.btn-gray.active,
-    .open > .hhrplus-product-actions .btn-hhrplus.btn-gray.dropdown-toggle {
-      color: #434c52;
-      background-color: #bccdd4;
-      border-color: #b6c8d0; }
-      .hhrplus-product-actions .btn-hhrplus.btn-gray:active:hover, .hhrplus-product-actions .btn-hhrplus.btn-gray:active:focus, .hhrplus-product-actions .btn-hhrplus.btn-gray:active.focus, .hhrplus-product-actions .btn-hhrplus.btn-gray.active:hover, .hhrplus-product-actions .btn-hhrplus.btn-gray.active:focus, .hhrplus-product-actions .btn-hhrplus.btn-gray.active.focus,
-      .open > .hhrplus-product-actions .btn-hhrplus.btn-gray.dropdown-toggle:hover,
-      .open > .hhrplus-product-actions .btn-hhrplus.btn-gray.dropdown-toggle:focus,
-      .open > .hhrplus-product-actions .btn-hhrplus.btn-gray.dropdown-toggle.focus {
-        color: #434c52;
-        background-color: #a6bcc6;
-        border-color: #8daab6; }
-    .hhrplus-product-actions .btn-hhrplus.btn-gray:active, .hhrplus-product-actions .btn-hhrplus.btn-gray.active,
-    .open > .hhrplus-product-actions .btn-hhrplus.btn-gray.dropdown-toggle {
-      background-image: none; }
-    .hhrplus-product-actions .btn-hhrplus.btn-gray.disabled, .hhrplus-product-actions .btn-hhrplus.btn-gray.disabled:hover, .hhrplus-product-actions .btn-hhrplus.btn-gray.disabled:focus, .hhrplus-product-actions .btn-hhrplus.btn-gray.disabled.focus, .hhrplus-product-actions .btn-hhrplus.btn-gray.disabled:active, .hhrplus-product-actions .btn-hhrplus.btn-gray.disabled.active, .hhrplus-product-actions .btn-hhrplus.btn-gray[disabled], .hhrplus-product-actions .btn-hhrplus.btn-gray[disabled]:hover, .hhrplus-product-actions .btn-hhrplus.btn-gray[disabled]:focus, .hhrplus-product-actions .btn-hhrplus.btn-gray[disabled].focus, .hhrplus-product-actions .btn-hhrplus.btn-gray[disabled]:active, .hhrplus-product-actions .btn-hhrplus.btn-gray[disabled].active,
-    fieldset[disabled] .hhrplus-product-actions .btn-hhrplus.btn-gray,
-    fieldset[disabled] .hhrplus-product-actions .btn-hhrplus.btn-gray:hover,
-    fieldset[disabled] .hhrplus-product-actions .btn-hhrplus.btn-gray:focus,
-    fieldset[disabled] .hhrplus-product-actions .btn-hhrplus.btn-gray.focus,
-    fieldset[disabled] .hhrplus-product-actions .btn-hhrplus.btn-gray:active,
-    fieldset[disabled] .hhrplus-product-actions .btn-hhrplus.btn-gray.active {
-      background-color: #dbe4e8;
-      border-color: #dbe4e8; }
-    .hhrplus-product-actions .btn-hhrplus.btn-gray .badge {
-      color: #dbe4e8;
-      background-color: #434c52; }
 
 .hhrplus-divider-dashed {
   display: block;
   height: 1px;
   width: 100%;
   border-bottom: 1px dashed #a3a3a3; }
+
+.hhrplus-order-confirmed-container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 20px;
+  margin-top: 20px; }
+  .hhrplus-order-confirmed-container:before, .hhrplus-order-confirmed-container:after {
+    content: " ";
+    display: table; }
+  .hhrplus-order-confirmed-container:after {
+    clear: both; }
+  @media (min-width: 768px) {
+    .hhrplus-order-confirmed-container {
+      width: 800px; } }
+  .hhrplus-order-confirmed-container:first-child {
+    margin-top: 60px; }
+
+.btn-hhrplus {
+  border: none;
+  border-radius: 3px;
+  padding: 8px 40px;
+  margin-right: 10px;
+  font-size: 14px; }
+  .btn-hhrplus:last-child {
+    margin-right: 0; }
+
+.btn-hhrplus.btn-gray {
+  color: #434c52;
+  background-color: #dbe4e8;
+  border-color: #dbe4e8; }
+  .btn-hhrplus.btn-gray:focus, .btn-hhrplus.btn-gray.focus {
+    color: #434c52;
+    background-color: #bccdd4;
+    border-color: #8daab6; }
+  .btn-hhrplus.btn-gray:hover {
+    color: #434c52;
+    background-color: #bccdd4;
+    border-color: #b6c8d0; }
+  .btn-hhrplus.btn-gray:active, .btn-hhrplus.btn-gray.active,
+  .open > .btn-hhrplus.btn-gray.dropdown-toggle {
+    color: #434c52;
+    background-color: #bccdd4;
+    border-color: #b6c8d0; }
+    .btn-hhrplus.btn-gray:active:hover, .btn-hhrplus.btn-gray:active:focus, .btn-hhrplus.btn-gray:active.focus, .btn-hhrplus.btn-gray.active:hover, .btn-hhrplus.btn-gray.active:focus, .btn-hhrplus.btn-gray.active.focus,
+    .open > .btn-hhrplus.btn-gray.dropdown-toggle:hover,
+    .open > .btn-hhrplus.btn-gray.dropdown-toggle:focus,
+    .open > .btn-hhrplus.btn-gray.dropdown-toggle.focus {
+      color: #434c52;
+      background-color: #a6bcc6;
+      border-color: #8daab6; }
+  .btn-hhrplus.btn-gray:active, .btn-hhrplus.btn-gray.active,
+  .open > .btn-hhrplus.btn-gray.dropdown-toggle {
+    background-image: none; }
+  .btn-hhrplus.btn-gray.disabled, .btn-hhrplus.btn-gray.disabled:hover, .btn-hhrplus.btn-gray.disabled:focus, .btn-hhrplus.btn-gray.disabled.focus, .btn-hhrplus.btn-gray.disabled:active, .btn-hhrplus.btn-gray.disabled.active, .btn-hhrplus.btn-gray[disabled], .btn-hhrplus.btn-gray[disabled]:hover, .btn-hhrplus.btn-gray[disabled]:focus, .btn-hhrplus.btn-gray[disabled].focus, .btn-hhrplus.btn-gray[disabled]:active, .btn-hhrplus.btn-gray[disabled].active,
+  fieldset[disabled] .btn-hhrplus.btn-gray,
+  fieldset[disabled] .btn-hhrplus.btn-gray:hover,
+  fieldset[disabled] .btn-hhrplus.btn-gray:focus,
+  fieldset[disabled] .btn-hhrplus.btn-gray.focus,
+  fieldset[disabled] .btn-hhrplus.btn-gray:active,
+  fieldset[disabled] .btn-hhrplus.btn-gray.active {
+    background-color: #dbe4e8;
+    border-color: #dbe4e8; }
+  .btn-hhrplus.btn-gray .badge {
+    color: #dbe4e8;
+    background-color: #434c52; }
+
+.hhrplus-buy-actions {
+  margin-top: 40px;
+  margin-bottom: 60px; }
 
 /*# sourceMappingURL=main.css.map */

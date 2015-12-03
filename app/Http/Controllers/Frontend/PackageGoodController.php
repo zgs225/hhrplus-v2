@@ -91,4 +91,11 @@ class PackageGoodController extends Controller
     {
         //
     }
+
+    public function buy($id)
+    {
+      $packageGood = PackageGood::with('goodItems')->findOrFail($id);
+
+      return view('frontend.goods.buy', compact('packageGood'));
+    }
 }
