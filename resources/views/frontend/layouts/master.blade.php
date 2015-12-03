@@ -14,7 +14,6 @@
         {!! HTML::style(elixir('css/frontend.css')) !!}
         @yield('after-styles-end')
 
-        <link href="{{ asset('/css/frontend/index.css') }}" rel="stylesheet">
         <!-- Icons-->
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
