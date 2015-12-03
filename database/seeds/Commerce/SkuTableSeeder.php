@@ -43,49 +43,49 @@ class SkuTableSeeder extends Seeder
             array(
                 'product_id' => 3,
                 'stock' => 99,
-                'price' => 998,
+                'price' => 1500,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ),
             array(
                 'product_id' => 4,
                 'stock' => 99,
-                'price' => 1398,
+                'price' => 5000,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ),
             array(
                 'product_id' => 5,
                 'stock' => 99,
-                'price' => 7980,
+                'price' => 18000,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ),
             array(
                 'product_id' => 6,
                 'stock' => 0,
-                'price' => 2398,
+                'price' => 60000,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ),
             array(
                 'product_id' => 7,
                 'stock' => 7,
-                'price' => 69800,
+                'price' => 150000,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ),
             array(
                 'product_id' => 8,
                 'stock' => 7,
-                'price' => 59800,
+                'price' => 100000,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ),
             array(
                 'product_id' => 9,
                 'stock' => 7,
-                'price' => 49800,
+                'price' => 80000,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ),

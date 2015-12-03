@@ -12,7 +12,7 @@
           产品原型
         </h2>
         <div class="hhrplus-product-price">
-          1398元<span class="text-gray">(原价: 2980元)</span>
+          5000元<span class="text-gray">(原价: 7980元)</span>
         </div>
         <div class="hhrplus-product-actions">
           <a class="btn btn-primary btn-hhrplus" href="{{ route('package_goods.buy', 4) }}">
