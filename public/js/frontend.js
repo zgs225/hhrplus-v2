@@ -148,7 +148,7 @@ $(function(){
       content  : '<div class="hhrplus-captcha-block"><img src="/captcha? ' + Math.random() + '" alt="合伙人+图形验证码"><br><a href="#">看不清？</a></div>',
       position : 'bottom left',
       classes  : 'drop-theme-hubspot-popovers',
-      openOn   : 'always'
+      openOn   : 'click'
     });
 
     $(this).val('');
