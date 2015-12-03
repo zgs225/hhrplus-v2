@@ -15,10 +15,10 @@
           1398元 <span class="text-gray">(原价: 2980元)</span>
         </div>
         <div class="hhrplus-product-actions">
-          <a class="btn btn-primary btn-hhrplus" href="/services/2">
+          <a class="btn btn-primary btn-hhrplus" href="{{ route('package_goods.buy', 3) }}">
             立即购买
           </a>
-          <a class="btn btn-default btn-hhrplus btn-gray" href="/services/2">
+          <a class="btn btn-default btn-hhrplus btn-gray" href="{{ route('package_goods.show', 3) }}">
             查看详情
           </a>
         </div>
