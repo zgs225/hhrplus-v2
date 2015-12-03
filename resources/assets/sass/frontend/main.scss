@@ -370,6 +370,73 @@ footer.copyright {
   }
 }
 
+.hhrplus-detail-container {
+  @include container-fixed;
+
+  @media (min-width: $screen-sm-min) {
+    width: 900px;
+  }
+
+  padding-bottom: 40px;
+
+
+  .hhrplus-detail-img {
+    margin-left: auto;
+    margin-right: auto;
+
+    @media(min-width: $screen-sm-min) {
+      max-width: 280px;
+    }
+
+    img {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  .hhrplus-detail-title {
+    margin-top: 30px;
+    font-size: 24px;
+    font-family: "HiraginoSansGB-W6", "冬青黑体简体中文 W6", "STHeiti", "华文黑体", "MicrosoftYaHei", "微软雅黑", sans-serif;
+  }
+
+  .hhrplus-detail-actions {
+    margin-top: 50px;
+  }
+
+  .hhrplus-detail-block {
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+
+  .hhrplus-detail-description {
+    padding-left: 15px;
+    padding-right: 15px;
+    @media(min-width: $screen-sm-min) {
+      padding-left: 85px;
+    }
+
+    h4 {
+      margin-bottom: 20px;
+    }
+
+    ol {
+      padding-left: 0;
+      list-style-position: inside;
+      margin-bottom: 40px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      li {
+        margin-bottom: 10px;
+        color: #6f6f6f;
+      }
+    }
+  }
+}
+
 .hhrplus-container {
 
   .hhrplus-product-list-item {
@@ -459,4 +526,11 @@ footer.copyright {
   .btn-hhrplus.btn-gray {
     @include button-variant(#434c52, #dbe4e8, #dbe4e8);
   }
+}
+
+.hhrplus-divider-dashed {
+  display: block;
+  height: 1px;
+  width: 100%;
+  border-bottom: 1px dashed #a3a3a3;
 }

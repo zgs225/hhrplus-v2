@@ -11,5 +11,3 @@
     </p>
   </div>
 </div>
-
-@include ('frontend/includes/product_demos')

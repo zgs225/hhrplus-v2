@@ -8230,6 +8230,56 @@ footer.copyright {
     .hhrplus-container {
       width: 900px; } }
 
+.hhrplus-detail-container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 40px; }
+  .hhrplus-detail-container:before, .hhrplus-detail-container:after {
+    content: " ";
+    display: table; }
+  .hhrplus-detail-container:after {
+    clear: both; }
+  @media (min-width: 768px) {
+    .hhrplus-detail-container {
+      width: 900px; } }
+  .hhrplus-detail-container .hhrplus-detail-img {
+    margin-left: auto;
+    margin-right: auto; }
+    @media (min-width: 768px) {
+      .hhrplus-detail-container .hhrplus-detail-img {
+        max-width: 280px; } }
+    .hhrplus-detail-container .hhrplus-detail-img img {
+      margin-left: auto;
+      margin-right: auto; }
+  .hhrplus-detail-container .hhrplus-detail-title {
+    margin-top: 30px;
+    font-size: 24px;
+    font-family: "HiraginoSansGB-W6", "冬青黑体简体中文 W6", "STHeiti", "华文黑体", "MicrosoftYaHei", "微软雅黑", sans-serif; }
+  .hhrplus-detail-container .hhrplus-detail-actions {
+    margin-top: 50px; }
+  .hhrplus-detail-container .hhrplus-detail-block {
+    margin-top: 60px;
+    margin-bottom: 40px; }
+  .hhrplus-detail-container .hhrplus-detail-description {
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 768px) {
+      .hhrplus-detail-container .hhrplus-detail-description {
+        padding-left: 85px; } }
+    .hhrplus-detail-container .hhrplus-detail-description h4 {
+      margin-bottom: 20px; }
+    .hhrplus-detail-container .hhrplus-detail-description ol {
+      padding-left: 0;
+      list-style-position: inside;
+      margin-bottom: 40px; }
+      .hhrplus-detail-container .hhrplus-detail-description ol:last-child {
+        margin-bottom: 0; }
+      .hhrplus-detail-container .hhrplus-detail-description ol li {
+        margin-bottom: 10px;
+        color: #6f6f6f; }
+
 .hhrplus-container .hhrplus-product-list-item {
   margin-bottom: 40px; }
   .hhrplus-container .hhrplus-product-list-item .hhrplus-product-list-cover {
@@ -8325,5 +8375,11 @@ footer.copyright {
     .hhrplus-product-actions .btn-hhrplus.btn-gray .badge {
       color: #dbe4e8;
       background-color: #434c52; }
+
+.hhrplus-divider-dashed {
+  display: block;
+  height: 1px;
+  width: 100%;
+  border-bottom: 1px dashed #a3a3a3; }
 
 /*# sourceMappingURL=main.css.map */
