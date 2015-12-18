@@ -43,14 +43,14 @@ class SkuTableSeeder extends Seeder
             array(
                 'product_id' => 3,
                 'stock' => 99,
-                'price' => 1500,
+                'price' => 3000,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ),
             array(
                 'product_id' => 4,
                 'stock' => 99,
-                'price' => 5000,
+                'price' => 18000,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ),

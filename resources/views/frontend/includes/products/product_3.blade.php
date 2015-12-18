@@ -9,10 +9,10 @@
           项目都需要开发哪些功能呢?
         </div>
         <h2 class="hhrplus-product-title">
-          需求文档讨论会
+          产品经理会议
         </h2>
         <div class="hhrplus-product-price">
-          1500元 <span class="text-gray">(原价: 2980元)</span>
+          3000元 <span class="text-gray">(原价: 5000元)</span>
         </div>
         <div class="hhrplus-product-actions">
           <a class="btn btn-primary btn-hhrplus" href="{{ route('package_goods.buy', 3) }}">

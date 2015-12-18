@@ -7,10 +7,10 @@ trait PackageGoodAttributes
   {
     switch ($this->id) {
       case 3:
-        return 1980;
+        return 5000;
         break;
       case 4:
-        return 7980;
+        return 30000;
         break;
       case 5:
         return 26980;

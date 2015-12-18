@@ -9,10 +9,10 @@
           开发完的产品, 结构什么样?
         </div>
         <h2 class="hhrplus-product-title">
-          产品原型
+          产品设计
         </h2>
         <div class="hhrplus-product-price">
-          5000元<span class="text-gray">(原价: 7980元)</span>
+          18000元<span class="text-gray">(原价: 30000元)</span>
         </div>
         <div class="hhrplus-product-actions">
           <a class="btn btn-primary btn-hhrplus" href="{{ route('package_goods.buy', 4) }}">

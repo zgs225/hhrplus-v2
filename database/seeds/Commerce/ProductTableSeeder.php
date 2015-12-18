@@ -42,15 +42,15 @@ class ProductTableSeeder extends Seeder
             ),
             array(
                 'product_no' => 'B01',
-                'name' => '需求文档会议',
-                'list_price' => 1980,
+                'name' => '产品经理会议',
+                'list_price' => 5000,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ),
             array(
                 'product_no' => 'B02',
-                'name' => '产品原型设计',
-                'list_price' => 2980,
+                'name' => '产品设计',
+                'list_price' => 30000,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now()
             ),

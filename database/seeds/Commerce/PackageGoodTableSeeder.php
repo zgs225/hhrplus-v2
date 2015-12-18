@@ -43,7 +43,7 @@ class PackageGoodTableSeeder extends Seeder
                 'updated_at' => Carbon::now()
             ),
             array(
-                'name' => '产品需求文档会',
+                'name' => '产品经理会议',
                 'status' => 1, // 缺货
                 'is_multiple' => false,
                 'body' => '暂无',
@@ -51,7 +51,7 @@ class PackageGoodTableSeeder extends Seeder
                 'updated_at' => Carbon::now()
             ),
             array(
-                'name' => '产品原型',
+                'name' => '产品设计',
                 'status' => 1, // 缺货
                 'is_multiple' => false,
                 'body' => '暂无',
