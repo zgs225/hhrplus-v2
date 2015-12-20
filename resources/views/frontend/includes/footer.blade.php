@@ -30,8 +30,10 @@
         <h3>我们的公司</h3>
         <ul>
           <li>
-            <i class="fa fa-angle-right fa-fw"></i>
-           关于我们
+            <a href="/about">
+              <i class="fa fa-angle-right fa-fw"></i>
+              关于我们
+            </a>
           </li>
           <li>
             <i class="fa fa-angle-right fa-fw"></i>
@@ -51,7 +53,7 @@
           </li>
           <li>
             <i class="fa fa-angle-right fa-fw"></i>
-            {!! link_to('clients', '客户案例') !!}
+            {!! link_to('clients', '近期案例') !!}
           </li>
           <li>
             <i class="fa fa-angle-right fa-fw"></i>
@@ -63,40 +65,58 @@
         <h3>产品中心</h3>
         <ul>
           <li>
-            <i class="fa fa-angle-right fa-fw"></i>
-            约技术聊
+            <a href="{{ route('package_goods.show', 1) }}" title="约技术聊">
+              <i class="fa fa-angle-right fa-fw"></i>
+              约技术聊
+            </a>
           </li>
           <li>
-            <i class="fa fa-angle-right fa-fw"></i>
-            约导师聊
+            <a href="{{ route('package_goods.show', 2) }}" title="约技术聊">
+              <i class="fa fa-angle-right fa-fw"></i>
+              约导师聊
+            </a>
           </li>
           <li>
-            <i class="fa fa-angle-right fa-fw"></i>
-            产品需求文档会议
+            <a href="{{ route('package_goods.show', 3) }}" title="约技术聊">
+              <i class="fa fa-angle-right fa-fw"></i>
+              产品经理文档会
+            </a>
           </li>
           <li>
-            <i class="fa fa-angle-right fa-fw"></i>
-            产品原型设计
+            <a href="{{ route('package_goods.show', 4) }}" title="约技术聊">
+              <i class="fa fa-angle-right fa-fw"></i>
+              产品设计
+            </a>
           </li>
           <li>
-            <i class="fa fa-angle-right fa-fw"></i>
-            UI设计制作
+            <a href="{{ route('package_goods.show', 5) }}" title="约技术聊">
+              <i class="fa fa-angle-right fa-fw"></i>
+              UI设计
+            </a>
           </li>
           <li>
-            <i class="fa fa-angle-right fa-fw"></i>
-            DEMO开发
+            <a href="{{ route('package_goods.show', 6) }}" title="约技术聊">
+              <i class="fa fa-angle-right fa-fw"></i>
+              MVP开发
+            </a>
           </li>
           <li>
-            <i class="fa fa-angle-right fa-fw"></i>
-            APP开发
+            <a href="{{ route('package_goods.show', 7) }}" title="约技术聊">
+              <i class="fa fa-angle-right fa-fw"></i>
+              APP开发
+            </a>
           </li>
           <li>
-            <i class="fa fa-angle-right fa-fw"></i>
-            网站开发
+            <a href="{{ route('package_goods.show', 8) }}" title="约技术聊">
+              <i class="fa fa-angle-right fa-fw"></i>
+              网站开发
+            </a>
           </li>
           <li>
-            <i class="fa fa-angle-right fa-fw"></i>
-            微信开发
+            <a href="{{ route('package_goods.show', 9) }}" title="约技术聊">
+              <i class="fa fa-angle-right fa-fw"></i>
+              微信开发
+            </a>
           </li>
         </ul>
       </div>
