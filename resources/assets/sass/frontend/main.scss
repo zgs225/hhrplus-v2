@@ -115,16 +115,25 @@
       font-weight: lighter;
       color: #333333;
       font-family: "YouYuan", "幼圆", "STYuanti-SC-Light", "Microsoft YaHei", "微软雅黑", sans-serif;
+
+      @media (max-width: $iphone5s) {
+        font-size: 22px;
+      }
     }
 
 
     .hhrplus-product-title {
-      font-family: "HiraginoSansGB-W6", "冬青黑体简体中文 W6", "STHeiti", "华文黑体", "MicrosoftYaHei", "微软雅黑", sans-serif;
+      font-family: "HiraginoSansGB-W6", "冬青黑体简体中文 W6", "STHeiti", "华文黑体", "Microsoft YaHei", "微软雅黑", sans-serif;
       font-size: 24px;
       font-weight: bolder;
       color: #2a3339;
       margin-top: 30px;
       margin-bottom: 5px;
+
+      @media (max-width: $iphone5s) {
+        font-size: 20px;
+        margin-top: 15px;
+      }
     }
 
   }
@@ -581,6 +590,10 @@ footer.copyright {
 
   &:last-child {
     margin-right: 0;
+  }
+
+  @media (max-width: $iphone5s) {
+    padding: 6px 30px;
   }
 }
 
