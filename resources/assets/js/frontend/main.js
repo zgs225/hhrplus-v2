@@ -129,4 +129,25 @@ $(function(){
   $('.product-modal').on('hide.bs.modal', function(e) {
     captchaDrop && captchaDrop.target && captchaDrop.destroy();
   });
+
+  // Scrollreveal
+  window.sr = ScrollReveal({
+    reset       : true,
+    origin      : 'bottom',
+    distance    : '20px',
+    duration    : 500,
+    delay       : 0,
+    rotate      : { x: 0, y: 0, z: 0 },
+    opacity     : 0,
+    scale       : 0.9,
+    easing      : 'cubic-bezier( 0.6, 0.2, 0.1, 1 )',
+    mobile      : true
+  });
+
+  // 产品列表页面
+  sr.reveal('.hhrplus-product-list-item');
+  // 最近案例页面
+  sr.reveal('.hhrplus-client-list-item');
+  // 首页产品
+  sr.reveal('.hhrplus-product-item');
 });

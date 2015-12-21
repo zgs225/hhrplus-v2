@@ -22,6 +22,7 @@ elixir(function(mix) {
                 '../../../vendor/bower_components/tether/dist/js/tether.min.js',
                 '../../../vendor/bower_components/tether-drop/dist/js/drop.min.js',
                 '../../../vendor/bower_components/PACE/pace.min.js',
+                '../../../vendor/bower_components/scrollreveal/dist/scrollreveal.min.js',
                 'plugins.js',
                 'frontend/main.js',
             ], 'public/js/frontend.js')
