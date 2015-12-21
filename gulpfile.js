@@ -13,6 +13,7 @@ elixir(function(mix) {
         .styles([  // Combine pre-processed CSS files
                 '../../../vendor/bower_components/tether-drop/dist/css/extras/drop-twitter-bootstrap.min.css',
                 '../../../vendor/bower_components/tether-drop/dist/css/drop-theme-hubspot-popovers.min.css',
+                '../../../vendor/bower_components/PACE/themes/green/pace-theme-minimal.css',
                 'frontend/main.css',
             ], 'public/css/frontend.css')
         .scripts([ // Combine front-end scripts
@@ -20,6 +21,7 @@ elixir(function(mix) {
                 '../../../vendor/bower_components/jqBootstrapValidation/dist/jqBootstrapValidation-1.3.7.min.js',
                 '../../../vendor/bower_components/tether/dist/js/tether.min.js',
                 '../../../vendor/bower_components/tether-drop/dist/js/drop.min.js',
+                '../../../vendor/bower_components/PACE/pace.min.js',
                 'plugins.js',
                 'frontend/main.js',
             ], 'public/js/frontend.js')
